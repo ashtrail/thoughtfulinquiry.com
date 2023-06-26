@@ -1,0 +1,107 @@
+<a webc:root="override" class="back-to-top" href="#skip" aria-hidden="true">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="30"
+    height="30"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    class="lucide lucide-arrow-up-circle"
+  >
+    <title>back to top link</title>
+    <circle cx="12" cy="12" r="10"></circle>
+    <polyline points="16 12 12 8 8 12"></polyline>
+    <line x1="12" x2="12" y1="16" y2="8"></line>
+  </svg>
+  <p>Back to top</p>
+</a>
+
+<script>
+  const header = document.querySelector('header')
+  const footer = document.querySelector('.footer')
+	const backToTop = document.querySelector('.back-to-top.margin')
+
+  let canSeeHeader = true
+  let canSeeFooter = true
+
+  const toggleBackToTop = () => {
+    if (canSeeHeader || canSeeFooter) {
+      backToTop.classList.add('hidden')
+    } else {
+      backToTop.classList.remove('hidden')
+    }
+  }
+
+  const headerObserver = new IntersectionObserver(entries => {
+    canSeeHeader = entries[0].isIntersecting
+    toggleBackToTop()
+  })
+  const footerObserver = new IntersectionObserver(entries => {
+    canSeeFooter = entries[0].isIntersecting
+    toggleBackToTop()
+  })
+
+  headerObserver.observe(header)
+  footerObserver.observe(footer)
+</script>
+
+<style>
+  .back-to-top {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    margin: 0 auto;
+    gap: 0.5rem;
+  }
+
+  .back-to-top > p {
+    text-transform: uppercase;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 0;
+  }
+
+  .back-to-top > * {
+    color: var(--bg-color);
+  }
+
+  .back-to-top:hover > * {
+    color: var(--text-color);
+  }
+
+  .back-to-top.margin {
+    display: none;
+		transition: opacity .3s;
+  }
+
+  /* Transitionning from mobile to desktop navbar */
+  @media (min-width: 990px) {
+    .back-to-top.margin {
+      display: flex;
+      position: fixed;
+      bottom: 1.4rem;
+      left: 1.4rem;
+      padding: 0.5em;
+      background-color: var(--bg-color);
+      box-shadow: 0 2px 4px var(--header-shadow-color);
+    }
+
+    .back-to-top.margin > * {
+      color: var(--faded-text);
+    }
+
+    .back-to-top.margin:hover > * {
+      color: var(--text-color);
+    }
+
+    .back-to-top.margin.hidden {
+			pointer-events: none;
+      opacity: 0;
+    }
+  }
+</style>

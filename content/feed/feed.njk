@@ -1,0 +1,38 @@
+---
+# Metadata comes from _data/metadata.js
+permalink: /feed/feed.xml
+---
+{#- See https://validator.w3.org/feed/docs/atom.html -#}
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ metadata.language }}">
+	<title>{{ metadata.title }}</title>
+	<subtitle>{{ metadata.description }}</subtitle>
+	<link href="{{ permalink | htmlBaseUrl(metadata.url) }}" rel="self"/>
+	<link href="{{ metadata.url | addPathPrefixToFullUrl }}"/>
+	<updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+	<id>{{ metadata.url }}</id>
+	<author>
+		<name>{{ metadata.author.name }}</name>
+		<email>{{ metadata.author.email }}</email>
+		<uri>{{ metadata.author.url }}</uri>
+	</author>
+	<icon>{{ '/favicon-64x64.png' | htmlBaseUrl(metadata.url) }}</icon>
+	<logo>{{ metadata.opengraphDefault.image | htmlBaseUrl(metadata.url) }}</logo>
+	<rights>{{ metadata.licence.label }}</rights>
+	{%- for post in collections.posts | reverse %}
+	{% set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.url) }}{% endset %}
+	<entry>
+		<title>{{ post.data.title }}</title>
+		<link href="{{ absolutePostUrl }}"/>
+		<published>{{ post.date | dateToRfc3339 }}</published>
+		{% if post.data.showLastEdited %}
+			<updated>{{ post.data.lastEdited | dateToRfc3339 }}</updated>
+		{% else %}
+			<updated>{{ post.date | dateToRfc3339 }}</updated>
+		{%- endif %}
+		<id>{{ absolutePostUrl }}</id>
+		{% if post.data.description %}<summary>{{ post.data.description }}</summary>{%- endif %}
+		<content type="html">{{ post.templateContent | transformWithHtmlBase(absolutePostUrl, post.url) }}</content>
+	</entry>
+	{%- endfor %}
+</feed>

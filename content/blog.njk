@@ -1,0 +1,16 @@
+---
+layout: base
+eleventyNavigation:
+  key: Blog
+  order: 2
+---
+
+<h1>Latest Posts</h1>
+
+{% from 'post-link.njk' import postLink %}
+
+{% set postslist = collections.posts %}
+
+{% for post in postslist | reverse %}
+	{{ postLink(post) }}
+{% endfor %}

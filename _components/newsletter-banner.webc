@@ -1,0 +1,104 @@
+<section class="newsletter">
+  <div class="text-container">
+    <h2>Want to stay up to date?</h2>
+
+    <div class="feeds">
+			<p>Subscribe to the blog's feed:</p>
+        <a
+          class="feed-link"
+          target="_blank"
+          href="/feed/feed.xml"
+          aria-label="RSS feed"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-rss"
+          >
+            <title>RSS Feed</title>
+            <path d="M4 11a9 9 0 0 1 9 9"></path>
+            <path d="M4 4a16 16 0 0 1 16 16"></path>
+            <circle cx="5" cy="19" r="1"></circle>
+          </svg>
+          RSS
+        </a>
+        <a
+          class="feed-link"
+          target="_blank"
+          href="/feed/feed.json"
+          aria-label="JSON feed"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-braces"
+          >
+            <title>JSON Feed</title>
+            <path
+              d="M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5c0 1.1.9 2 2 2h1"
+            ></path>
+            <path
+              d="M16 21h1a2 2 0 0 0 2-2v-5c0-1.1.9-2 2-2a2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1"
+            ></path>
+          </svg>
+          JSON
+        </a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .newsletter {
+    padding: 0.5em 0;
+		text-align: center;
+  }
+
+  .newsletter {
+    --border: 2px solid var(--link-color);
+    background: var(--boosted-background-gradient-color);
+    border-top: var(--border);
+    border-bottom: var(--border);
+  }
+
+  .newsletter h2 {
+    padding-top: 0;
+  }
+
+  .feeds {
+		padding-top: .5em;
+    display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 1em;
+  }
+
+  .feed-link {
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+    gap: 0.4em;
+    padding: 0.5em;
+    font-weight: 500;
+    background: var(--toggle-gradient-color);
+    border-radius: 8px;
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+	.feed-link:hover {
+		background: var(--reversed-toggle-gradient-color);
+	}
+</style>

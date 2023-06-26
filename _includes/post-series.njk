@@ -1,0 +1,46 @@
+{% from 'card-link.njk' import cardLink %}
+
+{% macro postSeries(previous, next, isReversed = false) %}
+
+	{% if previous or next %}
+		<div class="series-header">
+			<div class="half-divider"></div>
+			<span>This post is part of a series</span>
+			<div class="half-divider"></div>
+		</div>
+
+		<div class="series-nav{{ ' reversed' if isReversed }}">
+
+			{% if previous %}
+
+				{{
+					cardLink(
+						title = previous.data.title,
+						description = previous.data.description,
+						url = previous.page.url,
+						isSmall = true,
+						isPrevious = true
+					)
+				}}
+
+			{% endif %}
+
+			{% if next %}
+
+				{{
+					cardLink(
+						title = next.data.title,
+						description = next.data.description,
+						url = next.page.url,
+						isSmall = true,
+						isNext = true
+					)
+				}}
+
+			{% endif %}
+
+		</div>
+
+	{% endif %}
+
+{% endmacro %}

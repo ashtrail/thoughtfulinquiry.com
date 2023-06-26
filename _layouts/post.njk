@@ -1,0 +1,99 @@
+---
+layout: base
+---
+{%- css %}{% include "public/css/sidenote.css" %}{% endcss %}
+
+{%- set tocNav %}{{ content | toc | safe }}{% endset %}
+
+<aside class="sticky-toc">
+	<input type="checkbox" id="toc-toggler" class="toc-toggle"/>
+	<div class="toc-header">
+		<div class="toc-title">Table of Content</div>
+
+		<label for="toc-toggler" class="toc-toggle">
+			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevrons-up-down toc-expand">
+				<title>Expand icon</title>
+				<path d="m7 15 5 5 5-5"></path>
+				<path d="m7 9 5-5 5 5"></path>
+			</svg>
+
+			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevrons-down-up toc-fold">
+				<title>Fold icon</title>
+				<path d="m7 20 5-5 5 5"></path>
+				<path d="m7 4 5 5 5-5"></path>
+			</svg>
+		</label>
+	</div>
+
+	<div class="toc-divider"></div>
+
+	{{ tocNav | safe }}
+
+</aside>
+
+<div class="post-header">
+	{# TODO: replace by h1 property for SEO optimization #}
+	<h1>{{ title }}</h1>
+
+	<ul class="metadata-line">
+		<li class="metadata-item tooltip">
+			📨 <time datetime="{{ page.date | htmlDateString }}">
+				{{ page.date | readableDate }}
+			</time>
+			<span class="tooltip-text">First published</span>
+		</li>
+		{% if showLastEdited %}
+			<li class="metadata-divider" />
+			<li class="metadata-item tooltip">
+			📝 <time datetime="{{ lastEdited | htmlDateString }}">
+					{{ lastEdited | readableDate }}
+				</time>
+				<span class="tooltip-text">Last edited</span>
+			</li>
+		{% endif %}
+		{%- set wordcount %}{{ content | wordCount }}{% endset %}
+		<li class="metadata-divider" />
+		<li class="metadata-item tooltip">
+			🧮 {{ wordcount }} words
+			<span class="tooltip-text">Length</span>
+		</li>
+		<li class="metadata-divider" />
+		<li class="metadata-item tooltip">
+			⏱️ {{ wordcount | readTime }} min
+			<span class="tooltip-text">Estimated read time</span>
+		</li>
+	</ul>
+
+	<div class="tag-line">
+		{%- for tag in tags | filterTagList %}
+			{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+			<a href="{{ tagUrl }}" class="tag">{{ tag }}</a>
+		{%- endfor %}
+	</div>
+</div>
+
+{% from 'post-series.njk' import postSeries %}
+
+{% set previousPost = collections.posts | getByURL(previous) %}
+{% set nextPost = collections.posts | getByURL(next) %}
+
+{{ postSeries(previousPost, nextPost) }}
+
+<hr aria-hidden="true">
+
+<article class="post-body">
+
+	<details class="toc-container">
+		<summary>
+			Table of Content
+		</summary>
+
+		{{ tocNav | safe }}
+
+	</details>
+
+	{{ content | safe }}
+
+	{{ postSeries(previousPost, nextPost, isReversed = true) }}
+
+</article>

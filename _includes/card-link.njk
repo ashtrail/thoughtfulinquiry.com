@@ -1,0 +1,49 @@
+{# TODO: add an option for new tab (target blank) or not #}
+{% macro cardLink(
+		title,
+		description,
+		url,
+		metadataSlot = null,
+		isSmall = false,
+		isPrevious = false,
+		isNext = false
+	)
+%}
+	<a class="card{{ ' small' if isSmall }}" href="{{ url }}" aria-label="{{ title }}">
+		{% if isPrevious %}
+			<div class="card-icon previous">
+				<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left-circle">
+					<title>Previous</title>
+					<circle cx="12" cy="12" r="10"></circle>
+					<polyline points="12 8 8 12 12 16"></polyline>
+					<line x1="16" x2="8" y1="12" y2="12"></line>
+				</svg>
+				<p>Previous</p>
+			</div>
+		{% endif %}
+
+		<article class="card-text">
+			<span class="card-title">
+				{{ title }}
+			</span>
+
+			{% if metadataSlot %} {{ metadataSlot | safe }} {% endif %}
+
+			<span class="card-description">
+				{{ description }}
+			</span>
+		</article>
+
+		{% if isNext %}
+			<div class="card-icon next">
+				<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right-circle">
+					<title>Next</title>
+					<circle cx="12" cy="12" r="10"></circle>
+					<polyline points="12 16 16 12 12 8"></polyline>
+					<line x1="8" x2="16" y1="12" y2="12"></line>
+				</svg>
+				<p>Next</p>
+			</div>
+		{% endif %}
+	</a>
+{% endmacro %}

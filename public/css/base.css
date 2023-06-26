@@ -1,0 +1,522 @@
+/*
+* ==============================================================================
+* Fonts
+* ==============================================================================
+*/
+
+/*
+* Fonts used:
+* - Sans-serif - Sora : 300, 400, 500, 600, 700
+* - Serif - Lora : 400, 400i, 600, 700
+*/
+
+/*
+* ==============================================================================
+* General style
+* ==============================================================================
+*/
+
+:root {
+  /* font families */
+  --sans-serif-font: Sora, system-ui, sans-serif;
+  --serif-font: Lora, serif;
+
+  --transition-delay: 0.25s;
+  --body-width: 900px;
+  --body-padding: 1em;
+  --line-height: 1.6;
+
+  /* z layers */
+  --layer-default: 0;
+  --layer-tooltip: 1;
+  --layer-header: 2;
+  --layer-menu-box: 3;
+  --layer-menu-toggle: 4;
+
+  /* --- Color palette ------------------------------------------------------ */
+  --color-orange-00: hsl(38, 85%, 80%);
+  --color-orange-10: #f8c772; /* Topaz  */
+  --color-orange-10a: rgba(248, 199, 114, 0.3);
+  --color-orange-30: #e18d2d; /* Cadmium Orange */
+  --color-orange-30a: rgba(235, 142, 37, 0.4);
+  --color-orange-50: #db7006; /* Metallic Orange */
+  --color-orange-50a: rgba(206, 106, 5, 0.4);
+
+  --color-blue-30: #5175a4; /* Blue Yonder */
+  --color-blue-50: #34538d; /* YInMn Blue */
+  --color-blue-50a: rgba(52, 83, 141, 0.4);
+  --color-blue-70: #41516d; /* Police Blue */
+  --color-blue-70a: rgba(65, 81, 109, 0.4);
+  --color-blue-90: #142952; /* Space cadet */
+  --color-blue-90a: rgba(20, 41, 82, 0.5);
+
+  --color-blue-100: #172136; /* Yankees Blue */
+
+  --color-magenta-20: #f76e97; /* Light Crimson */
+  --color-magenta-20a: rgba(247, 110, 151, 0.25);
+  --color-magenta-50: #eb1455; /* Spanish Crimson */
+  --color-magenta-50a: rgb(235, 20, 85, 0.4);
+  --color-magenta-70: #a80536; /* Alabama Crimson */
+}
+
+/* --- Themes --------------------------------------------------------------- */
+
+/* swap color palette usage depending on theme */
+:root,
+:root.light {
+  /* light theme */
+  --text-color: var(--color-blue-90);
+  --title-color: var(--color-blue-70);
+  --subtitle-color: var(--color-blue-50);
+  --bg-color: var(--color-orange-10);
+  --link-color: var(--color-magenta-70);
+  --link-hover-color: var(--color-magenta-50);
+  --theme-toggle-hover-color: var(--color-blue-30);
+  --tooltip-text-color: var(--color-orange-10);
+  --tooltip-bg-color: var(--color-blue-90);
+  --footer-text-color: var(--color-orange-00);
+  --footer-bg-color: var(--color-blue-100);
+  --footer-hover-color: var(--color-magenta-20);
+  --header-shadow-color: rgba(0, 0, 0, 0.05);
+  --faded-text: var(--color-orange-30);
+  --faded-bg: var(--color-orange-10a);
+  --card-highlight: var(--color-magenta-20a);
+  --card-shadow: var(--color-blue-70a);
+  --logo-shadow: var(--color-orange-30a);
+
+  --background-gradient-color: linear-gradient(
+    to right,
+    rgba(235, 142, 37, 0.55) 0%,
+    rgba(235, 142, 37, 0.4) 20%,
+    rgba(235, 142, 37, 0.4) 80%,
+    rgba(235, 142, 37, 0.55) 100%
+  );
+
+  --boosted-background-gradient-color: linear-gradient(
+    to right,
+    rgba(235, 142, 37, 0.8) 0%,
+    rgba(235, 142, 37, 0.5) 20%,
+    rgba(235, 142, 37, 0.35) 50%,
+    rgba(235, 142, 37, 0.5) 80%,
+    rgba(235, 142, 37, 0.8) 100%
+  );
+
+  --reversed-background-gradient-color: linear-gradient(
+    to right,
+    rgba(235, 142, 37, 0.2) 0%,
+    rgba(235, 142, 37, 0.8) 20%,
+    rgba(235, 142, 37, 0.8) 80%,
+    rgba(235, 142, 37, 0.2) 100%
+  );
+
+  --toggle-gradient-colors: var(--color-orange-30a) 0%,
+    var(--color-orange-30a) 40%, var(--color-orange-50) 100%;
+
+  --toggle-gradient-color: linear-gradient(
+    to bottom,
+    var(--toggle-gradient-colors)
+  );
+
+  --reversed-toggle-gradient-color: linear-gradient(
+    to top,
+    var(--toggle-gradient-colors)
+  );
+
+  --navbar-gradient-color: linear-gradient(
+    to bottom,
+    var(--color-orange-30) 0%,
+    var(--color-orange-30) 40%,
+    var(--color-orange-50) 100%
+  );
+}
+
+/* dark theme */
+:root.dark {
+  --text-color: var(--color-orange-10);
+  --title-color: var(--color-orange-50);
+  --subtitle-color: var(--color-orange-30);
+  --bg-color: var(--color-blue-90);
+  --link-color: var(--color-magenta-20);
+  --link-hover-color: var(--color-magenta-50);
+  --theme-toggle-hover-color: var(--color-orange-30);
+  --tooltip-text-color: var(--color-blue-70);
+  --tooltip-bg-color: var(--color-orange-10);
+  --header-shadow-color: rgba(0, 0, 0, 0.2);
+  --faded-text: var(--color-blue-70);
+  --faded-bg: var(--color-blue-90a);
+  --card-highlight: var(--color-magenta-50a);
+  --card-shadow: var(--color-orange-30a);
+  --logo-shadow: var(--color-blue-50a);
+
+  --background-gradient-color: linear-gradient(
+    to right,
+    rgba(65, 81, 109, 0.4) 0%,
+    rgba(52, 83, 141, 0.4) 20%,
+    rgba(52, 83, 141, 0.4) 80%,
+    rgba(65, 81, 109, 0.4) 100%
+  );
+
+  --boosted-background-gradient-color: linear-gradient(
+    to right,
+    rgba(65, 81, 109, 0.6) 0%,
+    rgba(52, 83, 141, 0.6) 20%,
+    rgba(52, 83, 141, 0.7) 50%,
+    rgba(52, 83, 141, 0.6) 80%,
+    rgba(65, 81, 109, 0.6) 100%
+  );
+
+  --reversed-background-gradient-color: linear-gradient(
+    to right,
+    rgba(52, 83, 141, 0.6) 0%,
+    rgba(65, 81, 109, 0.2) 40%,
+    rgba(65, 81, 109, 0.2) 60%,
+    rgba(52, 83, 141, 0.6) 100%
+  );
+
+  --toggle-gradient-colors: var(--color-blue-30) 0%, var(--color-blue-70a) 60%,
+    var(--color-blue-70a) 100%;
+
+  --toggle-gradient-color: linear-gradient(
+    to bottom,
+    var(--toggle-gradient-colors)
+  );
+
+  --reversed-toggle-gradient-color: linear-gradient(
+    to top,
+    var(--toggle-gradient-colors)
+  );
+
+  --navbar-gradient-color: linear-gradient(
+    to bottom,
+    var(--color-blue-30) 0%,
+    var(--color-blue-50) 50%
+  );
+}
+
+/* --- Basic Styles --------------------------------------------------------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  /*
+	* Make it so 0.1 rem = 1px font size without forcing a static police size
+	* (eg. 1.2rem is the same as a font size of 12px)
+	*/
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body,
+a,
+button {
+  transition: color var(--transition-delay);
+  transition: background-color var(--transition-delay);
+  transition: background var(--transition-delay);
+}
+
+body {
+  font-family: var(--sans-serif-font);
+  font-weight: 300;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  font-size: 1.8rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--title-color);
+  font-family: var(--serif-font);
+  font-weight: 700;
+  padding-top: 0.75em;
+  padding-bottom: 0.5em;
+}
+
+h1:target,
+h2:target,
+h3:target,
+h4:target {
+  color: var(--subtitle-color);
+  border-bottom: 2px solid var(--subtitle-color);
+}
+
+h1 {
+  font-size: 4.5rem;
+  padding-top: 0;
+  padding-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 2.7rem;
+}
+
+h4 {
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+
+p {
+  line-height: var(--line-height);
+  padding: 0.5em 0;
+}
+
+strong {
+  font-weight: 600;
+}
+
+em {
+  font-style: italic;
+}
+
+small {
+  font-size: 0.8em;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+img,
+video {
+  max-width: 100%;
+  display: block;
+}
+
+main ul {
+  list-style-type: disc;
+  padding: 0.5em 0em 0.5em 1em;
+}
+
+main ol {
+  list-style-type: decimal;
+  padding: 0.5em 0em 0.5em 1em;
+}
+
+main li {
+  padding: 0.25em 0;
+  line-height: var(--line-height);
+}
+
+blockquote {
+  padding: 1.5em 2em;
+  margin: 1em 0;
+  border-radius: 6px;
+  background: var(--background-gradient-color);
+  border: 1px solid var(--link-color);
+}
+
+blockquote p {
+  font-family: var(--serif-font);
+  font-weight: 400;
+  padding: 0.3em 0;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  margin: 2em 0;
+  background-color: var(--title-color);
+  border: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid var(--text-color);
+  margin: 1.5em 0;
+}
+
+th,
+td {
+  padding: 0.75em 1em;
+  border: 1px solid var(--text-color);
+}
+
+thead {
+  background: var(--background-gradient-color);
+}
+
+th {
+  font-family: var(--serif-font);
+  font-weight: 700;
+  font-size: 2.1rem;
+  text-align: left;
+}
+
+pre,
+code {
+  font-family: var(--font-family-monospace);
+}
+pre:not([class*='language-']) {
+  margin: 0.5em 0;
+  line-height: 1.375; /* 22px /16 */
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+}
+code {
+  word-break: break-all;
+}
+
+details {
+  border: 1px solid var(--link-color);
+  border-radius: 4px;
+  margin: 0.5em 0;
+}
+
+details > * {
+  margin: 0 0.5em;
+}
+
+summary {
+  --border-radius: 4px;
+  list-style: none;
+  padding: 0.75em;
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.9rem;
+  line-height: 1.25;
+  font-family: var(--serif-font);
+  background: var(--toggle-gradient-color);
+  border-radius: var(--border-radius);
+}
+
+summary:hover {
+  background: var(--reversed-toggle-gradient-color);
+}
+
+details[open] summary {
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
+/* details summary::before {
+	content: "➡️";
+	font-size: 0.75em;
+	vertical-align: baseline;
+}
+
+details[open] summary::before {
+	content: "⬇️";
+} */
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/*
+* ==============================================================================
+* Layout
+* ==============================================================================
+*/
+
+.container {
+  padding: 0 var(--body-padding);
+}
+
+.text-container {
+  max-width: min(55ch, 100% - 2 * var(--body-padding));
+  padding: var(--body-padding) 0;
+  margin: 0 auto;
+}
+
+/* Bigger screen real estate on mobile */
+@media (min-width: 550px) {
+  :root {
+    --body-padding: 2em;
+  }
+}
+
+/* Transitioning from mobile to desktop navbar */
+@media (min-width: 990px) {
+  body {
+    padding: 0;
+  }
+
+  .container {
+    max-width: var(--body-width);
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+/* --- Footer --------------------------------------------------------------- */
+
+body {
+  /* https://www.30secondsofcode.org/css/s/footer-at-the-bottom/ */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+  padding-top: 1em;
+}
+
+.footer {
+  background-color: var(--footer-bg-color);
+  padding: 1.5em 0;
+  font-size: 1.6rem;
+}
+
+.footer > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9em;
+}
+
+.footer,
+.footer a {
+  font-weight: 300;
+  color: var(--footer-text-color);
+}
+
+.footer a:hover {
+  color: var(--footer-hover-color);
+}
+
+.footer-right {
+  display: flex;
+  gap: 1.5em;
+  align-items: center;
+}
+
+.feeds {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+  align-items: center;
+}
+
+/* TODO: Add some 1440p QoL tweaks */
