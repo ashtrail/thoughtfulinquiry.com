@@ -53,7 +53,7 @@ module.exports = function () {
 
   const description = cleanExtract(
     head,
-    /<meta name="description" content="(.*)" \/>/
+    /<meta name="description" content="(.*)" ?\/>/
   )
   if (description === null) {
     warn('does not have a <meta name="description"> tag')
@@ -66,7 +66,7 @@ module.exports = function () {
   const ogTags = ['og:locale', 'og:site_name'] // og:image, og:image:width, og:image:height, og:image:alt
 
   for (const tag of ogTags) {
-    const regex = new RegExp(`<meta property="${tag}" content="(.*)" \/>`)
+    const regex = new RegExp(`<meta property="${tag}" content="(.*)" ?\/>`)
     if (extract(file, regex) === null) {
       warn(`does not have a <meta name="${tag}"> tag`)
     }
@@ -74,7 +74,7 @@ module.exports = function () {
 
   const ogTitle = cleanExtract(
     head,
-    /<meta property="og:title" content="(.*)" \/>/
+    /<meta property="og:title" content="(.*)" ?\/>/
   )
   if (ogTitle === null) {
     warn('does not have a <meta property="og:title"> tag')
@@ -82,7 +82,7 @@ module.exports = function () {
 
   const ogDesc = cleanExtract(
     head,
-    /<meta property="og:description" content="(.*)" \/>/
+    /<meta property="og:description" content="(.*)" ?\/>/
   )
   if (ogTitle === null) {
     warn('does not have a <meta property="og:description"> tag')
@@ -90,7 +90,7 @@ module.exports = function () {
 
   const ogType = cleanExtract(
     head,
-    /<meta property="og:type" content="(.*)" \/>/
+    /<meta property="og:type" content="(.*)" ?\/>/
   )
   if (ogType === null) {
     warn('does not have a <meta property="og:type"> tag')
