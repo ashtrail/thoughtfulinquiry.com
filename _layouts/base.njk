@@ -16,6 +16,7 @@
 
 	{%- css %}{% include "public/css/reset.css" %}{% endcss %}
 	{%- css %}{% include "public/css/base.css" %}{% endcss %}
+	{%- css %}{% include "public/css/navbar.css" %}{% endcss %}
 	{%- css %}{% include "public/css/post.css" %}{% endcss %}
 	{%- css %}{% include "public/css/card-link.css" %}{% endcss %}
 
@@ -26,9 +27,7 @@
 	<a href="#skip" class="visually-hidden">Skip to main content</a>
 
 	<header>
-		{% renderTemplate "webc" %}
-			<navbar webc:nokeep></navbar>
-		{% endrenderTemplate %}
+		{% include 'navbar.njk' %}
 	</header>
 
 	<main class="text-container" id="skip">

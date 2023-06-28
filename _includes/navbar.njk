@@ -1,0 +1,52 @@
+{%- set navigationItems = collections.all | eleventyNavigation -%}
+
+{% macro navLinks(className) %}
+
+	{%- for entry in navigationItems %}
+
+		<li>
+			<a
+				class="{{ className }}"
+				href="{{ entry.url }}"
+				{% if entry.url == page.url %} aria-current="page"{% endif %}
+			>
+				{{ entry.title }}
+			</a>
+		</li>
+	{%- endfor %}
+
+{% endmacro %}
+
+<div class="container">
+	<a class="site-logo" href="/">
+		<img class="site-logo__small" src="/img/small-logo.png" alt="site logo" width="72" height="40">
+		<img class="site-logo__large" src="/img/full-logo.png" alt="site logo" width="360" height="60">
+	</a>
+
+	<nav class="navbar">
+		<ul class="nav-links">
+			{{ navLinks("nav-link") }}
+		</ul>
+
+			{% renderTemplate "webc" %}
+				<theme-toggle></theme-toggle>
+			{% endrenderTemplate %}
+
+		<div class="hamburger-menu">
+			<input id="menu__toggle" type="checkbox" />
+			<label class="menu__btn" for="menu__toggle">
+				<span></span>
+			</label>
+
+			<div class="menu__box">
+				<ul>
+					{{ navLinks("menu__item") }}
+				</ul>
+
+			{% renderTemplate "webc" %}
+				<back-to-top></back-to-top>
+			{% endrenderTemplate %}
+
+			</div>
+	</nav>
+</div>
