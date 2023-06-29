@@ -235,6 +235,8 @@ h4 {
   font-weight: 700;
   padding-top: 0.75em;
   padding-bottom: 0.5em;
+  overflow-wrap: break-word;
+  text-wrap: balance;
 }
 
 h1:target,

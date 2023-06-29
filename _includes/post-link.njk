@@ -6,7 +6,7 @@
 		<ul class="metadata-line">
 			<li class="metadata-item tooltip">
 				📨 <time datetime="{{ post.page.date | htmlDateString }}">
-					{{ post.page.date | readableDate }}
+					{{ post.page.date | formatDate('MMM D, YYYY') }}
 				</time>
 				<span class="tooltip-text">First published</span>
 			</li>

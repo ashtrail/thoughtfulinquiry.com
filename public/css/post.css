@@ -17,6 +17,15 @@
   padding: 0 0.5em;
   font-size: 0.85em;
   text-transform: uppercase;
+  /*
+    Could be replaced with this uglier but web reader friendlier version
+    Though it may be unecessary : https://www.timdunklee.com/notes/use-css-text-transform-for-uppercase-letters-a11y/
+
+    font-size: 1em;
+    text-transform: capitalize;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+   */
 }
 
 .series-nav {
