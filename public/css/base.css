@@ -448,6 +448,24 @@ details[open] summary::before {
   margin: 0 auto;
 }
 
+.banner {
+  --border-width: 2px;
+  --border: var(--border-width) solid var(--link-color);
+  background: var(--boosted-background-gradient-color);
+  border-top: var(--border);
+  border-bottom: var(--border);
+}
+
+.banner.hero {
+  --border-width: 4px;
+}
+
+.hero-logo {
+  margin: var(--body-padding) auto;
+  filter: drop-shadow(4px 5px 4px var(--logo-hero-shadow));
+  width: clamp(100px, 80vw, 520px);
+}
+
 /* Bigger screen real estate on mobile */
 @media (min-width: 550px) {
   :root {

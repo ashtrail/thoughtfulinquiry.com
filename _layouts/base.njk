@@ -30,6 +30,12 @@
 		{% include 'navbar.njk' %}
 	</header>
 
+	{% if isHome %}
+		<section class="banner hero">
+			<img class="hero-logo" src="/img/vertical-full-logo.png" alt="site logo">
+		</section>
+	{% endif %}
+
 	<main class="text-container" id="skip">
 		{{ content | safe }}
 	</main>
