@@ -27,12 +27,21 @@ const {
   getAllTags,
   filterTagList,
   getByURL,
+  getByFileSlug,
   readTime,
   debug,
   obfuscateEmail,
+  getIndex,
+  getPrevious,
+  getNext,
+  getPrevInSeries,
+  getNextInSeries,
+  getSeriesData,
 } = require('./config/filters.js')
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.setDataDeepMerge(true)
+
   /* --- Plugins ------------------------------------------------------------ */
 
   // App plugins
@@ -95,9 +104,16 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter('getAllTags', getAllTags)
   eleventyConfig.addFilter('filterTagList', filterTagList)
   eleventyConfig.addFilter('getByURL', getByURL)
+  eleventyConfig.addFilter('getByFileSlug', getByFileSlug)
   eleventyConfig.addFilter('readTime', readTime)
   eleventyConfig.addFilter('debug', debug)
   eleventyConfig.addFilter('obfuscateEmail', obfuscateEmail)
+  eleventyConfig.addFilter('getIndex', getIndex)
+  eleventyConfig.addFilter('getPrevious', getPrevious)
+  eleventyConfig.addFilter('getNext', getNext)
+  eleventyConfig.addFilter('getPrevInSeries', getPrevInSeries)
+  eleventyConfig.addFilter('getNextInSeries', getNextInSeries)
+  eleventyConfig.addFilter('getSeriesData', getSeriesData)
 
   /* --- Passthrough & Watch ----------------------------------------------- */
 

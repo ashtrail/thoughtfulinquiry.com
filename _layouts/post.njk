@@ -74,10 +74,12 @@ layout: base
 
 {% from 'post-series.njk' import postSeries %}
 
-{% set previousPost = collections.posts | getByURL(previous) %}
-{% set nextPost = collections.posts | getByURL(next) %}
+{% set currentSeries = series | getSeriesData(seriesName, page.fileSlug) %}
 
-{{ postSeries(previousPost, nextPost) }}
+{% set previousPost = currentSeries.posts | getPrevInSeries(page.fileSlug, collections.posts) %}
+{% set nextPost = currentSeries.posts | getNextInSeries(page.fileSlug, collections.posts) %}
+
+{{ postSeries(previousPost, nextPost, currentSeries) }}
 
 <hr aria-hidden="true">
 
@@ -94,6 +96,6 @@ layout: base
 
 	{{ content | safe }}
 
-	{{ postSeries(previousPost, nextPost, isReversed = true) }}
+	{{ postSeries(previousPost, nextPost, currentSeries, isReversed = true) }}
 
 </article>

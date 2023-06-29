@@ -1,11 +1,11 @@
 {% from 'card-link.njk' import cardLink %}
 
-{% macro postSeries(previous, next, isReversed = false) %}
+{% macro postSeries(previous, next, seriesData, isReversed = false) %}
 
 	{% if previous or next %}
 		<div class="series-header">
 			<div class="half-divider"></div>
-			<span>This post is part of a series</span>
+			<span>{{ seriesData.title }}: Part {{ seriesData.index }} / {{ seriesData.total }} </span>
 			<div class="half-divider"></div>
 		</div>
 
