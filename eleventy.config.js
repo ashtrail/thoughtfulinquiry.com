@@ -94,7 +94,7 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addLayoutAlias('base', 'base.njk')
-  eleventyConfig.addLayoutAlias('post', 'post.njk')
+  eleventyConfig.addLayoutAlias('page', 'page.njk')
 
   /* --- Filters & Shortcodes ----------------------------------------------- */
 

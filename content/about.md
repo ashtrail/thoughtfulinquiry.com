@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: About
 eleventyNavigation:
   key: About

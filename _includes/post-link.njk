@@ -1,18 +1,16 @@
 {% from 'card-link.njk' import cardLink %}
 
-{% macro postLink(post) %}
+{% macro postLink(post, isSmall = false) %}
 
 	{%- set metadata %}
 		<ul class="metadata-line">
-			<li class="metadata-item tooltip">
+			<li class="metadata-item">
 				📨 <time datetime="{{ post.page.date | htmlDateString }}">
 					{{ post.page.date | formatDate('MMM D, YYYY') }}
 				</time>
-				<span class="tooltip-text">First published</span>
 			</li>
-			<li class="metadata-item tooltip">
+			<li class="metadata-item">
 				⏱️ {{ post.content | wordCount | readTime }} min
-				<span class="tooltip-text">Estimated read time</span>
 			</li>
 
 			{%- for tag in post.data.tags | filterTagList %}
@@ -26,7 +24,8 @@
 			title = post.data.title,
 			description = post.data.description,
 			url = post.page.url,
-			metadataSlot = metadata
+			metadataSlot = metadata,
+			isSmall = isSmall
 		)
 	}}
 

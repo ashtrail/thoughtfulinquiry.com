@@ -3,15 +3,15 @@ const dayjs = require('dayjs')
 const isProd = process.env.NODE_ENV === 'production'
 
 let data = {
-	tags: ['posts'],
-	layout: 'post',
-	isPost: true,
-	date: isProd ? 'git Created' : 'Created',
-	eleventyComputed: {
-		showLastEdited: ({ page, lastEdited }) =>
-			lastEdited ? dayjs(lastEdited).isAfter(page.date, 'day') : false,
-		// TODO: add wordcount as a computed data rather than a filter to avoid computing it more than once?
-	},
+  tags: ['posts'],
+  layout: 'page',
+  isPost: true,
+  date: isProd ? 'git Created' : 'Created',
+  eleventyComputed: {
+    showLastEdited: ({ page, lastEdited }) =>
+      lastEdited ? dayjs(lastEdited).isAfter(page.date, 'day') : false,
+    // TODO: add wordcount as a computed data rather than a filter to avoid computing it more than once?
+  },
 }
 
 data.date = isProd ? 'git Created' : 'Created'
