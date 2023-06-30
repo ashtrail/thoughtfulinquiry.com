@@ -47,7 +47,7 @@ header > .container {
 
   .site-logo__large {
     display: block;
-    filter: drop-shadow(2px 5px 2px var(--logo-shadow));
+    filter: drop-shadow(2px 3px 3px var(--logo-shadow));
   }
 }
 
