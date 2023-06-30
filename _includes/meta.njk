@@ -1,8 +1,6 @@
 {%- set metaTitle -%}
-{%- if title -%}
-	{{- title -}}
-{%- elif pageTitle -%}
-	{{- pageTitle }} | {{ metadata.title -}}
+{%- if title %}
+	{{- title }}{%- if isPost != true %} | {{ metadata.title -}}{%- endif %}
 {%- else -%}
 	{{- metadata.title -}}
 {%- endif -%}

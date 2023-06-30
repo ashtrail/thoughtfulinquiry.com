@@ -463,6 +463,16 @@ details[open] summary::before {
   width: clamp(100px, 80vw, 520px);
 }
 
+.author-portrait {
+  border-radius: 100%;
+  width: 150px;
+  margin: 1em auto;
+}
+
+.email {
+  color: var(--subtitle-color);
+}
+
 /* Bigger screen real estate on mobile */
 @media (min-width: 550px) {
   :root {

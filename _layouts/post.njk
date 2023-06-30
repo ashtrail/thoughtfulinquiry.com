@@ -31,47 +31,6 @@ layout: base
 
 </aside>
 
-<div class="post-header">
-	{# TODO: replace by h1 property for SEO optimization #}
-	<h1>{{ title }}</h1>
-
-	<ul class="metadata-line">
-		<li class="metadata-item tooltip">
-			📨 <time datetime="{{ page.date | htmlDateString }}">
-				{{ page.date | readableDate }}
-			</time>
-			<span class="tooltip-text">First published</span>
-		</li>
-		{% if showLastEdited %}
-			<li class="metadata-divider" />
-			<li class="metadata-item tooltip">
-			📝 <time datetime="{{ lastEdited | htmlDateString }}">
-					{{ lastEdited | readableDate }}
-				</time>
-				<span class="tooltip-text">Last edited</span>
-			</li>
-		{% endif %}
-		{%- set wordcount %}{{ content | wordCount }}{% endset %}
-		<li class="metadata-divider" />
-		<li class="metadata-item tooltip">
-			🧮 {{ wordcount }} words
-			<span class="tooltip-text">Length</span>
-		</li>
-		<li class="metadata-divider" />
-		<li class="metadata-item tooltip">
-			⏱️ {{ wordcount | readTime }} min
-			<span class="tooltip-text">Estimated read time</span>
-		</li>
-	</ul>
-
-	<div class="tag-line">
-		{%- for tag in tags | filterTagList %}
-			{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-			<a href="{{ tagUrl }}" class="tag">{{ tag }}</a>
-		{%- endfor %}
-	</div>
-</div>
-
 {% from 'post-series.njk' import postSeries %}
 
 {% set currentSeries = series | getSeriesData(seriesName, page.fileSlug) %}
@@ -79,9 +38,61 @@ layout: base
 {% set previousPost = currentSeries.posts | getPrevInSeries(page.fileSlug, collections.posts) %}
 {% set nextPost = currentSeries.posts | getNextInSeries(page.fileSlug, collections.posts) %}
 
-{{ postSeries(previousPost, nextPost, currentSeries) }}
+{% if isPost %}
 
-<hr aria-hidden="true">
+	<div class="post-header">
+		<h1>{{ title }}</h1>
+
+		<ul class="metadata-line">
+			<li class="metadata-item tooltip">
+				📨 <time datetime="{{ page.date | htmlDateString }}">
+					{{ page.date | readableDate }}
+				</time>
+				<span class="tooltip-text">First published</span>
+			</li>
+			{% if showLastEdited %}
+				<li class="metadata-divider" />
+				<li class="metadata-item tooltip">
+				📝 <time datetime="{{ lastEdited | htmlDateString }}">
+						{{ lastEdited | readableDate }}
+					</time>
+					<span class="tooltip-text">Last edited</span>
+				</li>
+			{% endif %}
+			{%- set wordcount %}{{ content | wordCount }}{% endset %}
+			<li class="metadata-divider" />
+			<li class="metadata-item tooltip">
+				🧮 {{ wordcount }} words
+				<span class="tooltip-text">Length</span>
+			</li>
+			<li class="metadata-divider" />
+			<li class="metadata-item tooltip">
+				⏱️ {{ wordcount | readTime }} min
+				<span class="tooltip-text">Estimated read time</span>
+			</li>
+		</ul>
+
+		{% set postTags = tags | filterTagList %}
+		{% if postTags | length > 0 %}
+			<div class="tag-line">
+				{%- for tag in postTags %}
+					{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+					<a href="{{ tagUrl }}" class="tag">{{ tag }}</a>
+				{%- endfor %}
+			</div>
+		{% endif %}
+
+	</div>
+
+	{{ postSeries(previousPost, nextPost, currentSeries) }}
+
+	<hr aria-hidden="true">
+
+{% else %}
+
+<h1>{{ title }}</h1>
+
+{% endif %}
 
 <article class="post-body">
 
@@ -96,6 +107,8 @@ layout: base
 
 	{{ content | safe }}
 
-	{{ postSeries(previousPost, nextPost, currentSeries, isReversed = true) }}
+	{% if isPost %}
+		{{ postSeries(previousPost, nextPost, currentSeries, isReversed = true) }}
+	{% endif %}
 
 </article>

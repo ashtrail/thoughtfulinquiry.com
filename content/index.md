@@ -14,6 +14,6 @@ If you'd like to peruse the blog's content, take a look at the [latest posts](/b
 
 For more details on the website and its author, you can read the [About](/about/) page.
 
-If you'd like to get in touch, email me at <span style="color: var(--subtitle-color)">{{ metadata.author.email | obfuscateEmail | safe }}</span>.
+Should you want to get in touch, you can find [my contact information](/about/#contact-info) here.
 
 Thanks for coming by. I hope you enjoy your stay!

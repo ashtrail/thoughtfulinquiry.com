@@ -39,6 +39,8 @@ const {
   getSeriesData,
 } = require('./config/filters.js')
 
+const { getAuthorAge } = require('./config/shortcodes.js')
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.setDataDeepMerge(true)
 
@@ -94,7 +96,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias('base', 'base.njk')
   eleventyConfig.addLayoutAlias('post', 'post.njk')
 
-  /* --- Filters ------------------------------------------------------------ */
+  /* --- Filters & Shortcodes ----------------------------------------------- */
 
   eleventyConfig.addFilter('formatDate', formatDate)
   eleventyConfig.addFilter('readableDate', readableDate)
@@ -114,6 +116,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter('getPrevInSeries', getPrevInSeries)
   eleventyConfig.addFilter('getNextInSeries', getNextInSeries)
   eleventyConfig.addFilter('getSeriesData', getSeriesData)
+
+  eleventyConfig.addShortcode('authorAge', getAuthorAge)
 
   /* --- Passthrough & Watch ----------------------------------------------- */
 
