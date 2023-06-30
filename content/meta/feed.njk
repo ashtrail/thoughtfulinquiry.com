@@ -18,7 +18,7 @@ permalink: /feed/feed.xml
 	</author>
 	<icon>{{ '/favicon-64x64.png' | htmlBaseUrl(metadata.url) }}</icon>
 	<logo>{{ metadata.opengraphDefault.image | htmlBaseUrl(metadata.url) }}</logo>
-	<rights>{{ metadata.licence.label }}</rights>
+	<rights>{{ metadata.license.label }}</rights>
 	{%- for post in collections.posts | reverse %}
 	{% set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.url) }}{% endset %}
 	<entry>

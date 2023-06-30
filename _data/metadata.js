@@ -10,7 +10,7 @@ module.exports = {
     email: 'arthur@thoughtfulinquiry.com',
     url: 'https://thoughtfulinquiry.com/about',
   },
-  licence: {
+  license: {
     label: 'CC BY 4.0 Thoughtful Inquiry',
     url: 'https://creativecommons.org/licenses/by/4.0/',
   },

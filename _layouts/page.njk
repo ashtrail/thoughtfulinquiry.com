@@ -6,31 +6,33 @@ layout: base
 
 {%- set tocNav %}{{ content | toc | safe }}{% endset %}
 
-<aside class="sticky-toc">
-	<input type="checkbox" id="toc-toggler" class="toc-toggle"/>
-	<div class="toc-header">
-		<div class="toc-title">Table of Content</div>
+{% if tocNav %}
+	<aside class="sticky-toc">
+		<input type="checkbox" id="toc-toggler" class="toc-toggle"/>
+		<div class="toc-header">
+			<div class="toc-title">Table of Content</div>
 
-		<label for="toc-toggler" class="toc-toggle">
-			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevrons-up-down toc-expand">
-				<title>Expand icon</title>
-				<path d="m7 15 5 5 5-5"></path>
-				<path d="m7 9 5-5 5 5"></path>
-			</svg>
+			<label for="toc-toggler" class="toc-toggle">
+				<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevrons-up-down toc-expand">
+					<title>Expand icon</title>
+					<path d="m7 15 5 5 5-5"></path>
+					<path d="m7 9 5-5 5 5"></path>
+				</svg>
 
-			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevrons-down-up toc-fold">
-				<title>Fold icon</title>
-				<path d="m7 20 5-5 5 5"></path>
-				<path d="m7 4 5 5 5-5"></path>
-			</svg>
-		</label>
-	</div>
+				<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevrons-down-up toc-fold">
+					<title>Fold icon</title>
+					<path d="m7 20 5-5 5 5"></path>
+					<path d="m7 4 5 5 5-5"></path>
+				</svg>
+			</label>
+		</div>
 
-	<div class="toc-divider"></div>
+		<div class="toc-divider"></div>
 
-	{{ tocNav | safe }}
+		{{ tocNav | safe }}
 
-</aside>
+	</aside>
+{% endif %}
 
 {% from 'post-series.njk' import postSeries %}
 
@@ -97,6 +99,7 @@ layout: base
 
 <article class="post-body">
 
+{% if tocNav %}
 	<details class="toc-container">
 		<summary>
 			Table of Content
@@ -105,6 +108,7 @@ layout: base
 		{{ tocNav | safe }}
 
 	</details>
+{% endif %}
 
 	{{ content | safe }}
 
