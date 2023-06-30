@@ -69,10 +69,11 @@
 
   .newsletter h2 {
     padding-top: 0;
+    color: var(--link-color);
   }
 
   .feeds {
-		padding-top: .5em;
+		padding-top: .25em;
     display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
@@ -89,6 +90,7 @@
     background: var(--toggle-gradient-color);
     border-radius: 8px;
 		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: var(--text-color);
   }
 
 	.feed-link:hover {

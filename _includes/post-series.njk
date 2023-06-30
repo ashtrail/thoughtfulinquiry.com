@@ -3,9 +3,16 @@
 {% macro postSeries(previous, next, seriesData, isReversed = false) %}
 
 	{% if previous or next %}
+
+		{% set seriesLabel %}{{ seriesData.title }}: Part {{ seriesData.index }} / {{ seriesData.total }}{% endset %}
 		<div class="series-header">
 			<div class="half-divider"></div>
-			<span>{{ seriesData.title }}: Part {{ seriesData.index }} / {{ seriesData.total }} </span>
+			{#-
+				Accessibility & uppercase text
+				https://www.stefanjudis.com/today-i-learned/text-transforms-affects-screen-readers-too/
+				https://www.timdunklee.com/notes/use-css-text-transform-for-uppercase-letters-a11y/
+			#}
+			<span aria-label="{{ seriesLabel }}">{{ seriesLabel }}</span>
 			<div class="half-divider"></div>
 		</div>
 
