@@ -233,6 +233,7 @@ h4 {
   padding-top: 0.75em;
   padding-bottom: 0.5em;
   overflow-wrap: break-word;
+  line-height: 1.2;
   text-wrap: balance;
 }
 

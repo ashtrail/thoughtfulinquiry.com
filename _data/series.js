@@ -7,4 +7,8 @@ module.exports = {
     },
     page: { url: '#' },
   },
+  'empathic-inquiry': {
+    title: 'Empathic Inquiry',
+    posts: ['2023-07_empathy-bottleneck', 'WIP'],
+  },
 }
