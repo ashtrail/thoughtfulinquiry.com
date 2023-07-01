@@ -54,7 +54,7 @@ layout: base
 				<span class="tooltip-text">First published</span>
 			</li>
 			{% if showLastEdited %}
-				<li class="metadata-divider" />
+				<li class="metadata-divider">⬤</li>
 				<li class="metadata-item tooltip">
 				📝 <time datetime="{{ lastEdited | htmlDateString }}">
 						{{ lastEdited | readableDate }}
@@ -63,12 +63,12 @@ layout: base
 				</li>
 			{% endif %}
 			{%- set wordcount %}{{ content | wordCount }}{% endset %}
-			<li class="metadata-divider" />
+				<li class="metadata-divider">⬤</li>
 			<li class="metadata-item tooltip">
 				🧮 {{ wordcount }} words
 				<span class="tooltip-text">Length</span>
 			</li>
-			<li class="metadata-divider" />
+				<li class="metadata-divider">⬤</li>
 			<li class="metadata-item tooltip">
 				⏱️ {{ wordcount | readTime }} min
 				<span class="tooltip-text">Estimated read time</span>

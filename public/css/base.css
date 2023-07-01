@@ -558,6 +558,7 @@ footer {
   color: var(--subtitle-color);
   font-weight: 500;
   font-size: 1.6rem;
+  align-items: center;
 }
 
 .metadata-item {
@@ -571,9 +572,8 @@ footer {
 @media (min-width: 605px) {
   .metadata-divider {
     display: block;
-    max-height: 100%;
-    width: 2px;
-    background-color: var(--subtitle-color);
+    color: var(--subtitle-color);
+    font-size: 0.4em;
   }
 }
 
