@@ -8,6 +8,7 @@ const pluginBundle = require('@11ty/eleventy-plugin-bundle')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const pluginNavigation = require('@11ty/eleventy-navigation')
 const pluginWebc = require('@11ty/eleventy-plugin-webc')
+const markdownItAbbr = require('markdown-it-abbr')
 const markdownItAnchor = require('markdown-it-anchor')
 const markdownItLinkAttributes = require('markdown-it-link-attributes')
 const pluginTOC = require('eleventy-plugin-toc')
@@ -88,6 +89,7 @@ module.exports = function (eleventyConfig) {
           },
         },
       ])
+      .use(markdownItAbbr)
       // Parse custom markdown ^[side notes] and +[margin notes]
       .use(sidenote)
       .use(marginnote)
