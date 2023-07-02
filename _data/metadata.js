@@ -9,6 +9,7 @@ module.exports = {
     name: 'Arthur Cendrier',
     email: 'arthur@thoughtfulinquiry.com',
     url: 'https://thoughtfulinquiry.com/about',
+    contact: '/about/#contact-info',
   },
   license: {
     label: 'CC BY 4.0 Thoughtful Inquiry',

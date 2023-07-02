@@ -17,4 +17,4 @@ People tend to conflate credit, plagiarism, and copyright into a single concept.
 
 To only take music as an example, I think the world would be a worse place without remixes, samples, covers, or mashups. Overall, I'm most likely fine with whatever derivative of my work you come up with if it's motivated by a desire to improve upon the source material, create something new with of it or just have fun.
 
-If you think your specific use case legitimately warrants a loosening of the above-mentioned licenses, or you're generally unsure of where it falls, you can always [ask me](/about/#contact-info).
+If you think your specific use case legitimately warrants a loosening of the above-mentioned licenses, or you're generally unsure of where it falls, you can always [ask me]({{ metadata.author.contact }}).
