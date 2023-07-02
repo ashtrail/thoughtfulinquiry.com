@@ -3,7 +3,7 @@ layout: page
 title: Privacy policy
 ---
 
-This website currently does not collect any of your data. It does not use any cookies. There is only one piece of information stored in your browser's localStorage for the entire site, which is your favorite theme (i.e. light or dark) if you toggle it manually.
+This website currently does not collect any of your data. It doesn't make use of cookies either. There is only one piece of information stored in your browser's localStorage for the entire site, which is your favorite theme (i.e. light or dark) if you toggle it manually.
 
 However, it does use the Google Fonts API which [isn't GDPR compliant according to Germany](https://meetanshi.com/blog/google-fonts-gdpr-compliant) as it collects the user's IP address. Self-hosting the fonts is my top priority, so this should be fixed within a few days.
 

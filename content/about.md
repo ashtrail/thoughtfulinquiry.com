@@ -20,7 +20,7 @@ My goal for the design was to make a functional and aesthetically pleasing websi
 
 I initially got inspired by a random complementary palette on [Pigment by ShapeFactory](https://pigment.shapefactory.co/). Then again, I've always had a soft spot for orange and blue.
 
-I did my first very basic tests, colors and fonts, on Figma. However, I iterated on most of the design directly in HTML & CSS.
+I did my first very basic tests (i.e. colors and fonts) on Figma. However, I iterated on most of the design directly in HTML & CSS.
 
 I use Affinity Designer v2 to conceive the logos and other visual assets.
 
