@@ -1,9 +1,9 @@
 ---
-title: 'Why productive conflict is so rare'
+title: 'Why productive conflict resolution is so rare'
 description: 'What makes conflict resolution so difficult? Why are so many disputes pointless? How much does it impact our lives, and what can we do about it?'
 date: 2023-07-01
 seriesName: empathic-inquiry
-permalink: /blog/empathic-inquiry/1/why-productive-conflict-is-so-rare
+permalink: /blog/empathic-inquiry/1/why-productive-conflict-resolution-is-so-rare
 ---
 
 Have you noticed a disconcerting trend with most conflicts in your life? A nagging yet nebulous feeling of uneasiness surrounding them? A general dearth of insight regarding the ins and outs of why and how they occurred. A disappointment with a majority of their half-baked resolutions, which seem to amount more to sweeping most contentions under the rug and tacitly agreeing to feigned forgetfulness than actual closure?
