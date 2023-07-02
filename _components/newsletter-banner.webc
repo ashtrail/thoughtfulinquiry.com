@@ -3,7 +3,8 @@
     <h2>Want to stay up to date?</h2>
 
     <div class="feeds">
-			<p>Subscribe to the blog's feed:</p>
+      <p>Subscribe to the blog's feed:</p>
+      <div class="feed-links">
         <a
           class="feed-link"
           target="_blank"
@@ -57,6 +58,7 @@
           </svg>
           JSON
         </a>
+      </div>
     </div>
   </div>
 </section>
@@ -64,7 +66,7 @@
 <style>
   .newsletter {
     padding: 0.5em 0;
-		text-align: center;
+    text-align: center;
   }
 
   .newsletter h2 {
@@ -73,11 +75,17 @@
   }
 
   .feeds {
-		padding-top: .25em;
+    padding-top: 0.25em;
     display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 1em;
+  }
+
+  .feed-links {
+    display: flex;
+    justify-content: center;
+    column-gap: 1em;
   }
 
   .feed-link {
@@ -89,11 +97,11 @@
     font-weight: 500;
     background: var(--toggle-gradient-color);
     border-radius: 8px;
-		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     color: var(--text-color);
   }
 
-	.feed-link:hover {
-		background: var(--reversed-toggle-gradient-color);
-	}
+  .feed-link:hover {
+    background: var(--reversed-toggle-gradient-color);
+  }
 </style>
