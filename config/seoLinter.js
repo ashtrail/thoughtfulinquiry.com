@@ -44,16 +44,15 @@ module.exports = function () {
     warn('does not have a <head> tag')
     return
   }
-  const title = cleanExtract(head, /<title>(.*)<\/title>/)
+  const title = he.decode(cleanExtract(head, /<title>(.*)<\/title>/))
   if (title === null) {
     warn('does not have a <title> tag')
   } else if (title.length > MAX_TITLE_LENGTH) {
     warn(`title is too long (${title.length}/${MAX_TITLE_LENGTH})`)
   }
 
-  const description = cleanExtract(
-    head,
-    /<meta name="description" content="(.*)" ?\/>/
+  const description = he.decode(
+    cleanExtract(head, /<meta name="description" content="(.*)" ?\/>/)
   )
   if (description === null) {
     warn('does not have a <meta name="description"> tag')
