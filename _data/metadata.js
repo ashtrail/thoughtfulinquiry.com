@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Thoughtful Inquiry',
-  url: 'https://thoughtfulinquiry.com/',
+  url: 'https://www.thoughtfulinquiry.com/',
   language: 'en',
   locale: 'en_US',
   description:
@@ -8,7 +8,7 @@ module.exports = {
   author: {
     name: 'Arthur Cendrier',
     email: 'arthur@thoughtfulinquiry.com',
-    url: 'https://thoughtfulinquiry.com/about',
+    url: 'https://www.thoughtfulinquiry.com/about',
     contact: '/about/#contact-info',
   },
   license: {
