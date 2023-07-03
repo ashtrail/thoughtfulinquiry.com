@@ -50,3 +50,12 @@
 </html>
 
 <script>{% getBundle "js" %}</script>
+
+{# Analytics #}
+{% if metadata.env === 'prod' %}
+	<script
+		data-goatcounter="https://thoughtfulinquiry.goatcounter.com/count"
+		async src="//gc.zgo.at/count.js"
+	>
+	</script>
+{% endif %}

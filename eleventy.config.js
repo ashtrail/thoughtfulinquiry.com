@@ -2,6 +2,7 @@ const {
   EleventyHtmlBasePlugin,
   EleventyRenderPlugin,
 } = require('@11ty/eleventy')
+require('dotenv').config()
 
 // External Plugins
 const pluginBundle = require('@11ty/eleventy-plugin-bundle')

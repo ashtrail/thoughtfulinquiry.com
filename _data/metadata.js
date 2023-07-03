@@ -1,8 +1,9 @@
 module.exports = {
   title: 'Thoughtful Inquiry',
-  url: 'https://www.thoughtfulinquiry.com/',
+  url: process.env.BASE_URL,
   language: 'en',
   locale: 'en_US',
+  env: process.env.APP_ENV,
   description:
     'Elaborating upon our understanding and optimizing our decisions with a balance of subjectivity & objectivity to live a more meaningful life.',
   author: {
