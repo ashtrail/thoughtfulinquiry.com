@@ -1,61 +1,70 @@
 <!DOCTYPE html>
 <html class="light" lang="{{ metadata.language }}">
 
-<head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<head>
+		<meta charset="UTF-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-	{% include 'meta.njk' %}
+		{% include 'meta.njk' %}
 
-	{%- css %}{% include "public/css/reset.css" %}{% endcss %}
-	{%- css %}{% include "public/css/base.css" %}{% endcss %}
-	{%- css %}{% include "public/css/navbar.css" %}{% endcss %}
-	{%- css %}{% include "public/css/card-link.css" %}{% endcss %}
+		{%- css %}{% include "public/css/reset.css" %}{% endcss %}
+		{%- css %}{% include "public/css/base.css" %}{% endcss %}
+		{%- css %}{% include "public/css/navbar.css" %}{% endcss %}
+		{%- css %}{% include "public/css/card-link.css" %}{% endcss %}
 
-	<style>{% getBundle "css" %}</style>
-</head>
+		<style>
+			{% getBundle "css" %}
+		</style>
+	</head>
 
-<body>
-	<a href="#skip" class="visually-hidden">Skip to main content</a>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
 
-	<header>
-		{% include 'navbar.njk' %}
-	</header>
+		<header>
+			{% include 'navbar.njk' %}
+		</header>
 
-	{% if isHome %}
-		<section class="banner hero">
-			<img class="hero-logo" src="/img/vertical-full-logo.png" alt="site logo banner">
-		</section>
-	{% endif %}
+		{% if isHome %}
+			<section class="banner hero">
+				<img
+					class="hero-logo"
+					width="1040"
+					height="480"
+					src="/img/vertical-full-logo.png"
+					alt="site logo banner"
+				>
+			</section>
+		{% endif %}
 
-	<main class="text-container" id="skip">
-		{{ content | safe }}
-	</main>
+		<main class="text-container" id="skip">
+			{{ content | safe }}
+		</main>
 
-	<aside>
-		{% renderTemplate "webc" %}
+		<aside>
+			{% renderTemplate "webc" %}
 			<back-to-top class="margin"></back-to-top>
-		{% endrenderTemplate %}
-	</aside>
+			{% endrenderTemplate %}
+		</aside>
 
-	<footer>
-		{% renderTemplate "webc" %}
+		<footer>
+			{% renderTemplate "webc" %}
 			<newsletter-banner webc:nokeep></newsletter-banner>
-		{% endrenderTemplate %}
-		{% include 'footer.njk' %}
-	</footer>
-</body>
+			{% endrenderTemplate %}
+			{% include 'footer.njk' %}
+		</footer>
+	</body>
 
 </html>
 
-<script>{% getBundle "js" %}</script>
+<script>
+	{% getBundle "js" %}
+</script>
 
 {# Analytics #}
 {% if metadata.env === 'prod' %}
 	<script
 		data-goatcounter="https://thoughtfulinquiry.goatcounter.com/count"
 		async src="//gc.zgo.at/count.js"
-	>
-	</script>
+	></script>
 {% endif %}

@@ -23,6 +23,7 @@
     url('/fonts/Lora-400.woff') format('woff');
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -31,6 +32,7 @@
     url('/fonts/Lora-400i.woff') format('woff');
   font-weight: 400;
   font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
@@ -39,6 +41,7 @@
     url('/fonts/Lora-600.woff') format('woff');
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -47,6 +50,7 @@
     url('/fonts/Lora-700.woff') format('woff');
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
 /*
@@ -507,6 +511,8 @@ details[open] summary::before {
   margin: var(--body-padding) auto;
   filter: drop-shadow(4px 5px 4px var(--logo-hero-shadow));
   width: clamp(100px, 80vw, 520px);
+  height: auto;
+  aspect-ratio: 1040 / 480;
 }
 
 .author-portrait {

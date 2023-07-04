@@ -28,12 +28,12 @@
 			{{ navLinks("nav-link") }}
 		</ul>
 
-			{% renderTemplate "webc" %}
-				<theme-toggle></theme-toggle>
-			{% endrenderTemplate %}
+		{% renderTemplate "webc" %}
+		<theme-toggle></theme-toggle>
+		{% endrenderTemplate %}
 
 		<div class="hamburger-menu">
-			<input id="menu__toggle" type="checkbox" />
+			<input id="menu__toggle" type="checkbox" aria-label="navbar menu toggle"/>
 			<label class="menu__btn" for="menu__toggle">
 				<span></span>
 			</label>
@@ -47,6 +47,6 @@
 				<back-to-top></back-to-top>
 			{% endrenderTemplate %}
 
-			</div>
+		</div>
 	</nav>
 </div>
