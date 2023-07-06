@@ -75,6 +75,7 @@
   --layer-header: 2;
   --layer-menu-box: 3;
   --layer-menu-toggle: 4;
+  --layer-toast: 5;
 
   /* --- Color palette ------------------------------------------------------ */
   --color-orange-00: hsl(38, 85%, 80%);
@@ -640,8 +641,9 @@ footer {
 
 /* Tooltip text */
 .tooltip .tooltip-text {
+  --tooltip-width: 170px;
   visibility: hidden;
-  width: 170px;
+  width: var(--tooltip-width);
   background-color: var(--tooltip-bg-color);
   color: var(--tooltip-text-color);
   font-size: 1.4rem;
@@ -654,7 +656,8 @@ footer {
   z-index: var(--layer-tooltip);
   top: 150%;
   left: 50%;
-  margin-left: -85px; /* Use half of the width (120/2 = 60), to center the tooltip */
+  /* Use half of the width to center the tooltip */
+  margin-left: calc(var(--tooltip-width) / 2 * -1);
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
@@ -686,6 +689,110 @@ footer {
 .tag:hover {
   background: var(--reversed-background-gradient-color);
   color: var(--text-color);
+}
+
+/* --- Toast -------------------------------------------------- */
+
+/* cf https://www.codingnepalweb.com/toast-notification-html-css-javascript/ */
+
+.notifications {
+  position: fixed;
+  top: 30px;
+  right: 20px;
+}
+
+.notifications :where(.toast, .column) {
+  display: flex;
+  align-items: center;
+}
+
+.notifications .toast {
+  width: 350px;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  border-radius: 4px;
+  padding: 1em;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  animation: show_toast 0.3s ease forwards;
+  background-color: var(--tooltip-bg-color);
+  color: var(--tooltip-text-color);
+  z-index: var(--layer-toast);
+}
+
+@keyframes show_toast {
+  0% {
+    transform: translateX(100%);
+  }
+  40% {
+    transform: translateX(-5%);
+  }
+  80% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-10px);
+  }
+}
+
+.notifications .toast.hide {
+  animation: hide_toast 0.3s ease forwards;
+}
+
+@keyframes hide_toast {
+  0% {
+    transform: translateX(-10px);
+  }
+  40% {
+    transform: translateX(0%);
+  }
+  80% {
+    transform: translateX(-5%);
+  }
+  100% {
+    transform: translateX(calc(100% + 20px));
+  }
+}
+
+.toast::before {
+  position: absolute;
+  content: '';
+  height: 3px;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  animation: progress 2s linear forwards;
+  background-color: var(--link-color);
+}
+
+@keyframes progress {
+  100% {
+    width: 0%;
+  }
+}
+
+.toast .column span {
+  font-size: 0.8em;
+}
+
+.toast svg:last-child {
+  cursor: pointer;
+}
+
+.toast svg:last-child:hover {
+  color: var(--theme-toggle-hover-color);
+}
+
+@media screen and (max-width: 530px) {
+  .notifications {
+    width: 95%;
+    top: 90px;
+  }
+  .notifications .toast {
+    width: 100%;
+    margin-left: 20px;
+  }
 }
 
 /* TODO: Add some 1440p QoL tweaks */

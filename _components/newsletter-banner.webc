@@ -3,7 +3,16 @@
     <h2>Want to stay up to date?</h2>
 
     <div class="feeds">
-      <p>Subscribe to the blog's feed:</p>
+      <div class="feed-message tooltip">
+        <p>Subscribe to the blog's feed</p>
+          <svg width="16" height="16" class="help-icon">
+            <use xlink:href="#lucide-help"></use>
+          </svg>
+        <span class="tooltip-text">
+          Paste the feed's URL in your favorite RSS aggregator
+        </span>
+      </div>
+
       <div class="feed-links">
         <a
           class="feed-link"
@@ -32,6 +41,12 @@
   </div>
 </section>
 
+<script>
+  for (const feedLink of document.getElementsByClassName('feed-link')) {
+    feedLink.addEventListener('click', copyURI)
+  }
+</script>
+
 <style>
   .newsletter {
     padding: 0.5em 0;
@@ -49,6 +64,22 @@
     flex-wrap: wrap;
     justify-content: center;
     column-gap: 1em;
+  }
+
+  .feed-message {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .feed-message > .tooltip-text {
+    top: 110%;
+    --tooltip-width: 250px;
+    line-height: 1.4;
+  }
+
+  .help-icon {
+    margin-left: .1em;
   }
 
   .feed-links {

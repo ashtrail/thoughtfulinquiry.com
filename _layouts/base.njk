@@ -21,6 +21,7 @@
 	<body>
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 
+		<ul class="notifications"></ul>
 		{% include 'icon-symbols.njk' %}
 
 		<header>
@@ -60,7 +61,54 @@
 </html>
 
 <script>
-	{% getBundle "js" %}
+	const notifications = document.querySelector(".notifications")
+
+	const removeToast = (toast) => {
+		// Start animation
+		toast
+			.classList
+			.add("hide");
+		// Override previous timeout if necessary
+		if (toast.timeoutId) {
+			clearTimeout(toast.timeoutId);
+		}
+		setTimeout(() => toast.remove(), 500);
+	}
+
+	const createToast = (text, lifetime = 2000) => {
+		const toast = document.createElement("li");
+		toast.className = `toast`;
+		toast.innerHTML = `<div class="column">
+												 <span>${text}</span>
+											</div>
+											<svg
+												width="20"
+												height="20"
+												onclick="removeToast(this.parentElement)"
+											>
+												<use xlink:href="#lucide-close"></use>
+											</svg>`;
+		notifications.appendChild(toast);
+		toast.timeoutId = setTimeout(() => removeToast(toast), lifetime);
+	}
+
+	const copyURI = (event) => {
+		event.preventDefault();
+		const url = event
+			.target
+			.getAttribute('href')
+		let baseUrl = window.location.origin
+		// Check if the link is absolute or relative to the page
+		if (url[0] === '#') {
+			baseUrl += window.location.pathname
+		}
+		navigator
+			.clipboard
+			.writeText(baseUrl + url)
+		createToast('The URL was copied to your clipboard')
+	}
+
+{% getBundle "js" %}
 </script>
 
 {# Analytics #}

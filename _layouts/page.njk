@@ -113,3 +113,9 @@ layout: base
 	{% endif %}
 
 </article>
+
+{%- js %}
+for (const anchor of document.getElementsByClassName('header-anchor')) {
+	anchor.addEventListener("click", copyURI);
+}
+{% endjs %}
