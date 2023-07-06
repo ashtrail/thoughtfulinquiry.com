@@ -1,0 +1,158 @@
+
+{% macro commonAttributes() %}
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+{% endmacro %}
+
+<ul class="symbols">
+  <svg>
+    <symbol
+      id="lucide-sun"
+      {{ commonAttributes() }}
+      class="lucide lucide-sun-medium"
+    >
+      <title>Toggle light theme</title>
+      <path d="M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"></path>
+      <path d="M12 3v1"></path>
+      <path d="M12 20v1"></path>
+      <path d="M3 12h1"></path>
+      <path d="M20 12h1"></path>
+      <path d="m18.364 5.636-.707.707"></path>
+      <path d="m6.343 17.657-.707.707"></path>
+      <path d="m5.636 5.636.707.707"></path>
+      <path d="m17.657 17.657.707.707"></path>
+    </symbol>
+  </svg>
+
+  <svg>
+    <symbol
+      id="lucide-moon"
+      {{ commonAttributes() }}
+      class="lucide lucide-moon"
+    >
+      <title>Toggle dark theme</title>
+      <path d="M12 3a6.364 6.364 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+    </symbol>
+  </svg>
+
+  <svg>
+    <symbol
+      id="lucide-expand"
+      {{ commonAttributes() }}
+      class="lucide lucide-chevrons-up-down"
+    >
+      <title>Expand Table of Content</title>
+      <path d="m7 15 5 5 5-5"></path>
+      <path d="m7 9 5-5 5 5"></path>
+    </symbol>
+  </svg>
+
+  <svg>
+    <symbol
+      id="lucide-fold"
+      {{ commonAttributes() }}
+      class="lucide lucide-chevrons-down-up"
+    >
+      <title>Fold Table of Content</title>
+      <path d="m7 20 5-5 5 5"></path>
+      <path d="m7 4 5 5 5-5"></path>
+    </symbol>
+  </svg>
+
+  <svg>
+    <symbol
+      id="lucide-previous"
+      {{ commonAttributes() }}
+      class="lucide lucide-arrow-left-circle"
+    >
+      <title>Previous</title>
+      <circle cx="12" cy="12" r="10"></circle>
+      <polyline points="12 8 8 12 12 16"></polyline>
+      <line x1="16" x2="8" y1="12" y2="12"></line>
+    </symbol>
+  </svg>
+
+  <svg>
+    <symbol
+      id="lucide-next"
+      {{ commonAttributes() }}
+      class="lucide lucide-arrow-right-circle"
+    >
+      <title>Next</title>
+      <circle cx="12" cy="12" r="10"></circle>
+      <polyline points="12 16 16 12 12 8"></polyline>
+      <line x1="8" x2="16" y1="12" y2="12"></line>
+    </symbol>
+  </svg>
+
+  <svg>
+    <symbol
+      id="lucide-up"
+      {{ commonAttributes() }}
+      class="lucide lucide-arrow-up-circle"
+    >
+      <title>Go back to top</title>
+      <circle cx="12" cy="12" r="10"></circle>
+      <polyline points="16 12 12 8 8 12"></polyline>
+      <line x1="12" x2="12" y1="16" y2="8"></line>
+    </svg>
+  </symbol>
+
+  <svg>
+    <symbol
+      id="lucide-help"
+      {{ commonAttributes() }}
+      class="lucide lucide-help-circle"
+    >
+      <title>Show help</title>
+      <circle cx="12" cy="12" r="10"/>
+      <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+      <path d="M12 17h.01"/>
+    </symbol>
+  </svg>
+
+  <svg>
+    <symbol
+      id="lucide-rss"
+      {{ commonAttributes() }}
+      class="lucide lucide-rss"
+    >
+      <title>RSS Feed</title>
+      <path d="M4 11a9 9 0 0 1 9 9"></path>
+      <path d="M4 4a16 16 0 0 1 16 16"></path>
+      <circle cx="5" cy="19" r="1"></circle>
+    </symbol>
+  </svg>
+
+  <svg>
+    <symbol
+      id="lucide-json"
+      {{ commonAttributes() }}
+      class="lucide lucide-braces"
+    >
+      <title>JSON Feed</title>
+      <path d="M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5c0 1.1.9 2 2 2h1"></path>
+      <path d="M16 21h1a2 2 0 0 0 2-2v-5c0-1.1.9-2 2-2a2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1"></path>
+    </symbol>
+  </svg>
+
+  <svg>
+    <symbol
+      id="lucide-close"
+      {{ commonAttributes() }}
+      class="lucide lucide-x-circle"
+    >
+      <title>Close</title>
+      <circle cx="12" cy="12" r="10"/>
+      <path d="m15 9-6 6"/>
+      <path d="m9 9 6 6"/>
+    </symbol>
+  </svg>
+</ul>
+
+{%- css %} .symbols { display: none; } {% endcss %}
