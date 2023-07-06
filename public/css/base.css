@@ -699,6 +699,7 @@ footer {
   position: fixed;
   top: 30px;
   right: 20px;
+  z-index: var(--layer-toast);
 }
 
 .notifications :where(.toast, .column) {
@@ -718,7 +719,6 @@ footer {
   animation: show_toast 0.3s ease forwards;
   background-color: var(--tooltip-bg-color);
   color: var(--tooltip-text-color);
-  z-index: var(--layer-toast);
 }
 
 @keyframes show_toast {
