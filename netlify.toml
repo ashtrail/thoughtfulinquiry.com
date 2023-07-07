@@ -1,0 +1,14 @@
+[build]
+	publish = "_site"
+	command = "npm run build"
+
+[[plugins]]
+	# Cf https://github.com/netlify/netlify-plugin-lighthouse
+	package = "@netlify/plugin-lighthouse"
+
+	[plugins.inputs.thresholds]
+		performance = 0.9
+		accessibility = 0.9
+		best-practices = 0.9
+		seo = 0.9
+		pwa = 0.9
