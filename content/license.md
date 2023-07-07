@@ -5,7 +5,7 @@ title: License
 
 The written content of the website is published under the [CC BY 4.0 license]({{ metadata.license.url }}). Basically, the text is only very loosely copyrighted. Feel free to quote it (even fairly hearty portions), you don't need to ask for my permission. Just remember to credit Thoughtful Inquiry and link back to the page where you found it.
 
-I'll share the sources for the website shortly, most likely under the [MIT license](https://opensource.org/license/mit/).
+You can find the [source code on Github](https://github.com/ashtrail/thoughtfulinquiry.com) under the [MIT license](https://opensource.org/license/mit/).
 
 The visual assets and design, however, fall under a more stringent copyleft non-commercial [CC BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/). I can't really think of a valid reason to repurpose what is essentially branding for this specific website.
 

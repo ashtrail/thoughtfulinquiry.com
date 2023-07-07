@@ -28,7 +28,7 @@ The fonts used are Sora for paragraphs and Lora for titles and quotes.
 
 ### Technical Stack
 
-The website is built with [Eleventy](https://www.11ty.dev/) and hosted on [Netlify](https://www.netlify.com/) (which are both great).
+The website is built with [Eleventy](https://www.11ty.dev/) and hosted on [Netlify](https://www.netlify.com/) (which are both great). You can find the [source code on Github](https://github.com/ashtrail/thoughtfulinquiry.com).
 
 I used [eleventy-base-blog](https://github.com/11ty/eleventy-base-blog) and [eleventy-excellent](https://github.com/madrilene/eleventy-excellent) as templates for the codebase.
 
