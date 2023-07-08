@@ -18,12 +18,12 @@
 {% endmacro %}
 
 <div class="container">
-	<a class="site-logo" href="/">
+	<a class="site-logo" href="/" data-test="site-logo">
 		<img class="site-logo__small" src="/img/small-logo.png" alt="site logo" width="72" height="40">
 		<img class="site-logo__large" src="/img/full-logo.png" alt="site logo" width="360" height="60">
 	</a>
 
-	<nav class="navbar">
+	<nav class="navbar" data-test="navbar">
 		<ul class="nav-links">
 			{{ navLinks("nav-link") }}
 		</ul>

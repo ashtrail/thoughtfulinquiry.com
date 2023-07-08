@@ -2,6 +2,12 @@
 	publish = "_site"
 	command = "npm run build"
 
+	[build.environment]
+		# cache Cypress binary in local "node_modules" folder so Netlify caches it
+		CYPRESS_CACHE_FOLDER = "./node_modules/CypressBinary"
+		# set TERM variable for terminal output
+		TERM = "xterm"
+
 [[plugins]]
 	# Cf https://github.com/netlify/netlify-plugin-lighthouse
 	package = "@netlify/plugin-lighthouse"
@@ -11,3 +17,9 @@
 		accessibility = 0.9
 		best-practices = 0.9
 		seo = 0.9
+
+	# runs Cypress tests against the deployed URL
+	package = "netlify-plugin-cypress"
+	# let's run tests against the built site
+	[plugins.inputs.postBuild]
+		enable = true
