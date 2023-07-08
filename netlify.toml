@@ -18,6 +18,7 @@
 		best-practices = 0.9
 		seo = 0.9
 
+[[plugins]]
 	# runs Cypress tests against the deployed URL
 	package = "netlify-plugin-cypress"
 	# let's run tests against the built site
