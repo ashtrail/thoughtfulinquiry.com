@@ -22,4 +22,8 @@ module.exports = {
     width: 1280,
     height: 640,
   },
+  theme: {
+    topaz: '#f8c772',
+    spaceCadet: '#142952',
+  },
 }
