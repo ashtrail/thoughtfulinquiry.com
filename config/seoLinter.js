@@ -36,7 +36,9 @@ module.exports = function () {
   try {
     file = fs.readFileSync(outputFile, 'utf8')
   } catch (err) {
-    console.error(err)
+    if (process.env.APP_ENV === 'dev') {
+      console.error(err)
+    }
     return
   }
   const head = extract(file, /<head>((?:.|\n)*)<\/head>/m)
