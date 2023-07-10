@@ -2,6 +2,7 @@
 title: 'Why productive conflict resolution is so rare'
 description: "Why are so many disputes unproductive? What makes conflict resolution so complex? Let's explore how much it impacts our lives and what we can do about it."
 date: 2023-07-02
+lastEdited: 2023-07-10
 seriesName: empathic-inquiry
 permalink: /blog/empathic-inquiry/1/why-productive-conflict-resolution-is-so-rare/
 ---
@@ -28,11 +29,11 @@ Before we get into alleviating strategies, let's try to understand the problem f
 
 ### The theory of constraints
 
-The theory of constraints posits that every system is held back by its smallest bottleneck, which reduces the entire output to the latter's maximum capacity. As such, the key lever to unlocking a higher level of productivity is to identify and widen it. Think of a clogged pipe, for example. Despite having a 5 cm diameter, if it's restrained to 2 cm for a short section by a tight elastic, its maximum flow will be capped by this constraint+[If you'd like to read more about the theory of constraints, you can check out [this post by Tiago Forte on the topic](https://fortelabs.com/blog/theory-of-constraints-101/). It's also got some visual examples, which may help you understand it faster.].
+The theory of constraints posits that every system is held back by its smallest bottleneck, which reduces the entire output to the latter's maximum capacity. As such, the key lever to unlocking a higher level of productivity is to identify and widen it. Think of a clogged tube, for example. Despite having a 5 cm diameter, if it's restrained to 2 cm for a short section by a tight elastic, its maximum flow will be capped by this constraint+[If you'd like to read more about the theory of constraints, you can check out [this post by Tiago Forte on the topic](https://fortelabs.com/blog/theory-of-constraints-101/). It's also got some visual examples, which may help you understand it faster.].
 
 It's an interesting framing when you set about implementing changes to a system, as according to it, only a very limited number of actions will lead to any substantive impact. Indeed, you won't reap the benefits of any other optimization until you've addressed the smallest bottleneck, since it represents the hard limit of the whole shebang.
 
-Say we have two elastics on our 5 cm pipe, causing a 3 cm and a 2 cm constraint. If you only remove the 3 cm one, the pipe is still capped at 2 cm. If you only remove the 2 cm one, the pipe is now capped at 3 cm, which is an improvement. Lastly, if you remove the 3 cm elastic first and its counterpart second, you have now unlocked the full 5 cm girth. However, you could only see the results of this compound optimization after removing the smallest bottleneck.
+Say we have two elastics on our 5 cm tube, causing a 3 cm and a 2 cm constraint. If you only remove the 3 cm one, the tube is still capped at 2 cm. If you only remove the 2 cm one, the tube is now capped at 3 cm, which is an improvement. Lastly, if you remove the 3 cm elastic first and its counterpart second, you have now unlocked the full 5 cm girth. However, you could only see the results of this compound optimization after removing the smallest bottleneck.
 
 ### The questionable state of human conflict resolution
 
@@ -133,3 +134,10 @@ I want to emphasize that I don't believe conflict to be intrinsically bad, nor a
 If we want to have any chance of shifting our current conflict dynamic, it's instrumental to understand why and how it's happening. This applies to both its general patterns and the core issue behind each specific situation. When we don't understand ourselves, much less the other, the odds of a solution emerging are very slim.
 
 Very often, conflict doesn't arise from irreconcilable needs but rather from mutually incompatible strategies to fulfill them. Therefore, it's usually possible to find an alternative that respects the essential requirements of all parties involved. This process is greatly hindered by the muddling of strategies, interpretations, feelings, and needs. Coming up with an optimal compromise requires an environment of candid collaboration fostered through the demonstration of empathic inquiry.
+
+<details class="changelog">
+  <summary>Changelog</summary>
+
+- **July 10, 2023**: Replaced the word pipe by tube to make the example for the theory of constraint more conceivable.
+
+</details>

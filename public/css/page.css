@@ -37,6 +37,11 @@
   margin: 0.5em 0;
 }
 
+.changelog {
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+}
+
 /* --- Content -------------------------------------------------- */
 
 .header-anchor {
