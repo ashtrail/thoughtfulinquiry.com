@@ -44,7 +44,9 @@ layout: base
 
 		<ul class="metadata-line">
 			<li class="metadata-item tooltip">
-				📨 <time datetime="{{ page.date | htmlDateString }}">
+				{# TODO: add .5ch between emoji and text #}
+				<span class="metadata-icon">📨</span>
+				<time datetime="{{ page.date | htmlDateString }}">
 					{{ page.date | readableDate }}
 				</time>
 				<span class="tooltip-text">First published</span>
@@ -52,7 +54,8 @@ layout: base
 			{% if showLastEdited %}
 				<li class="metadata-divider">⬤</li>
 				<li class="metadata-item tooltip">
-				📝 <time datetime="{{ lastEdited | htmlDateString }}">
+					<span class="metadata-icon">📝</span>
+				 	<time datetime="{{ lastEdited | htmlDateString }}">
 						{{ lastEdited | readableDate }}
 					</time>
 					<span class="tooltip-text">Last edited</span>
@@ -61,12 +64,14 @@ layout: base
 			{%- set wordcount %}{{ content | wordCount }}{% endset %}
 				<li class="metadata-divider">⬤</li>
 			<li class="metadata-item tooltip">
-				🧮 {{ wordcount }} words
+				<span class="metadata-icon">🧮</span>
+				{{ wordcount }} words
 				<span class="tooltip-text">Length</span>
 			</li>
 				<li class="metadata-divider">⬤</li>
 			<li class="metadata-item tooltip">
-				⏱️ {{ wordcount | readTime }} min
+				<span class="metadata-icon">⏱️</span>
+				{{ wordcount | readTime }} min
 				<span class="tooltip-text">Estimated read time</span>
 			</li>
 		</ul>

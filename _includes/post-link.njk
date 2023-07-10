@@ -5,12 +5,14 @@
 	{%- set metadata %}
 		<ul class="metadata-line">
 			<li class="metadata-item">
-				📨 <time datetime="{{ post.page.date | htmlDateString }}">
+				<span class="metadata-icon">📨</span>
+				<time datetime="{{ post.page.date | htmlDateString }}">
 					{{ post.page.date | formatDate('MMM DD, YYYY') }}
 				</time>
 			</li>
 			<li class="metadata-item">
-				⏱️ {{ post.content | wordCount | readTime }} min
+				<span class="metadata-icon">⏱️</span>
+				{{ post.content | wordCount | readTime }} min
 			</li>
 
 			{%- for tag in post.data.tags | filterTagList %}
