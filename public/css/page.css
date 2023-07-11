@@ -48,6 +48,12 @@
   color: var(--faded-text);
   font-size: 0.8em;
   font-weight: 500;
+  display: none;
+}
+
+h2:hover > .header-anchor,
+h3:hover > .header-anchor {
+  display: inline-block;
 }
 
 .toc-container {
