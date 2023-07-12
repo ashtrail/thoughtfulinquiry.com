@@ -38,7 +38,7 @@ The side notes are based on [Tufte CSS](https://edwardtufte.github.io/tufte-css/
 
 My name is Arthur. I'm {% authorAge %} years old. I was born and live in France, so French is my mother tongue, but I'm fluent in English thanks to my Canadian mother. Since I enjoy writing in both languages, I chose the latter to have a broader reach.
 
-<img class="author-portrait" src="/img/portrait.jpg" alt="author portrait">
+<img class="author-portrait" src="/img/portrait.jpg" alt="author portrait" width="150" height="150">
 
 I do all the writing, designing, and programming on this website.
 
