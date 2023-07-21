@@ -458,6 +458,17 @@ details[open] summary {
   border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
 
+details p:has(> img) {
+  margin: .25em .75em;
+}
+
+/* Max width = 700px and max height = 450px */
+details img {
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
 /* details summary::before {
 	content: "➡️";
 	font-size: 0.75em;
