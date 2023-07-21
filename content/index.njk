@@ -12,12 +12,14 @@ eleventyNavigation:
 
 <p>If you'd like to peruse the blog's content, take a look at the <a href="/blog/">latest posts</a>.</p>
 
-<p>I'm just getting started, so the following post is the only option on the menu right now, but more will be coming soon.</p>
+<p>I'm just getting started, so the following posts are the only options on the menu right now, but more will be coming soon.</p>
 
 <div style="margin: 2em 0;">
 {%- from 'post-link.njk' import postLink %}
 {%- set featured = collections.posts | getByFileSlug('2023-07_empathy-bottleneck') %}
 {{- postLink(featured, isSmall = true) }}
+{%- set featured2 = collections.posts | getByFileSlug('2023-07-21_exercise-routine') %}
+{{- postLink(featured2, isSmall = true) }}
 </div>
 
 <p>For more details on the website and its author, you can read the <a href="/about/">About</a> page.</p>
