@@ -3,7 +3,7 @@ layout: page
 title: About
 eleventyNavigation:
   key: About
-  order: 3
+  order: 4
 ---
 
 I may add content and split this page in two in the future. In the meantime, you can find more information on both the website and myself below.
