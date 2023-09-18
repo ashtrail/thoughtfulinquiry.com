@@ -97,10 +97,10 @@ It consists of the following steps:
 
   <img
     loading="lazy"
-    src="https://thumbs.gfycat.com/MiniatureEasygoingLcont-size_restricted.gif"
+    src="https://i.pinimg.com/originals/08/b1/f8/08b1f8a8de39bc33916af4547dc04b5a.gif"
     alt="Plank taps"
     width="700"
-    height="384"
+    height="445"
   />
 </details>
 
