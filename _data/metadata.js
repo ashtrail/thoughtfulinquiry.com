@@ -6,6 +6,8 @@ module.exports = {
   env: process.env.APP_ENV,
   description:
     'Elaborating upon our understanding and optimizing our decisions with a balance of subjectivity & objectivity to live a more meaningful life.',
+  shortDescription:
+    'Optimize understanding, decisions and satisfaction with balanced analysis',
   author: {
     name: 'Arthur Cendrier',
     email: 'arthur@thoughtfulinquiry.com',
