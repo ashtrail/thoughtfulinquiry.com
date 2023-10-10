@@ -1,74 +1,78 @@
-<button id="theme-toggle" class="theme-toggle" aria-label="theme toggle button">
-	<svg width="26" height="26" class="theme-toggle-icon__light">
+<button
+  id="theme-toggle"
+  class="theme-toggle"
+  aria-label="theme toggle button"
+>
+  <svg width="26" height="26" class="theme-toggle-icon__light">
     <use xlink:href="#lucide-moon"></use>
   </svg>
-	<svg width="28" height="28" class="theme-toggle-icon__dark">
+  <svg width="28" height="28" class="theme-toggle-icon__dark">
     <use xlink:href="#lucide-sun"></use>
   </svg>
 </button>
 
 <script>
-	const LS_KEY = "theme-toggle"
+  const LS_KEY = 'theme-toggle'
 
-	class ThemeToggle extends HTMLElement {
-		connectedCallback() {
-			const html = document.documentElement;
+  class ThemeToggle extends HTMLElement {
+    connectedCallback() {
+      const html = document.documentElement
 
-			const applyTheme = (isDark) => {
-				if (isDark) {
-					html.classList.remove("light")
-					html.classList.add("dark")
-				} else {
-					html.classList.remove("dark")
-					html.classList.add("light")
-				}
-			}
+      const applyTheme = isDark => {
+        if (isDark) {
+          html.classList.remove('light')
+          html.classList.add('dark')
+        } else {
+          html.classList.remove('dark')
+          html.classList.add('light')
+        }
+      }
 
-			// The website should have a light theme by default, except if the user manually toggled it in the past
-			let darkMode = localStorage.getItem(LS_KEY) === "dark"
-			applyTheme(darkMode)
+      // The website should have a light theme by default, except if the user manually toggled it in the past
+      let darkMode = localStorage.getItem(LS_KEY) === 'dark'
+      applyTheme(darkMode)
 
-			const button = this.querySelector("#theme-toggle")
-			button.addEventListener("click", function toggleTheme () {
-				darkMode = !darkMode
-				applyTheme(darkMode)
-				localStorage.setItem(LS_KEY, darkMode ? "dark" : "light")
-			})
-		}
-	}
+      const button = this.querySelector('#theme-toggle')
+      button.addEventListener('click', function toggleTheme() {
+        darkMode = !darkMode
+        applyTheme(darkMode)
+        localStorage.setItem(LS_KEY, darkMode ? 'dark' : 'light')
+      })
+    }
+  }
 
-	window.customElements.define("theme-toggle", ThemeToggle)
+  window.customElements.define('theme-toggle', ThemeToggle)
 </script>
 
 <!-- Hide theme toggle as long as JS is not enabled -->
 <style webc:scoped>
-	:host:not(:defined) {
-		display: none;
-	}
+  :host:not(:defined) {
+    display: none;
+  }
 </style>
 
 <style>
-	.theme-toggle {
-		box-sizing: border-box;
-	}
+  .theme-toggle {
+    box-sizing: border-box;
+  }
 
-	.theme-toggle:hover {
-		color: var(--theme-toggle-hover-color);
-	}
+  .theme-toggle:hover {
+    color: var(--theme-toggle-hover-color);
+  }
 
-	.theme-toggle:focus-visible {
-		box-shadow: inset 0px 0px 0px 2px var(--theme-toggle-hover-color);
-		/* border: 2px solid var(--theme-toggle-hover-color); */
-		color: var(--theme-toggle-hover-color);
-	}
+  .theme-toggle:focus-visible {
+    box-shadow: inset 0px 0px 0px 2px var(--theme-toggle-hover-color);
+    /* border: 2px solid var(--theme-toggle-hover-color); */
+    color: var(--theme-toggle-hover-color);
+  }
 
-	.light .theme-toggle-icon__light,
-	.dark .theme-toggle-icon__dark {
-		display: block;
-	}
+  .light .theme-toggle-icon__light,
+  .dark .theme-toggle-icon__dark {
+    display: block;
+  }
 
-	.light .theme-toggle-icon__dark,
-	.dark .theme-toggle-icon__light {
-		display: none;
-	}
+  .light .theme-toggle-icon__dark,
+  .dark .theme-toggle-icon__light {
+    display: none;
+  }
 </style>
