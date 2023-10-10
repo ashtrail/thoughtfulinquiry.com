@@ -22,7 +22,11 @@ My next main projects for 2023 are the following+[Though be warned, I have a bad
 
 ### September 2023
 
-I added this Now page. I should be spending most of this month on the second and final post in the empathic inquiry series.
+This is the month when I created this Now page. Other than that, it was mostly dedicated to the second half of my empathic inquiry series. It was slow-going, especially to get the momentum started. It led me to refresh my NonViolent Communication theory and get further radicalized into nonviolence as a whole 😅. In any case, I finished the first draft at the beginning of October, so it should be out before November, but I still need to edit and proofread it. It stands at about 5,500 words currently.
+
+Spending so much time on such long posts has got me considering diversifying my format. I may publish shorter ones centered on a single concept from time to time to increase my publication frequency and get a breather in between my more ambitious writing marathons.
+
+I've also started reading the second edition of _Internal Family Systems Therapy_ by Richard Schwartz & Martha Sweezy on the side. I'm about halfway into it and really loving it so far. IFS is probably going to become a new staple of my conceptual toolbelt.
 
 ### August 2023
 
