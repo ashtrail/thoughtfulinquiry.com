@@ -18,9 +18,10 @@
 		best-practices = 0.9
 		seo = 0.9
 
-[[plugins]]
-	# runs Cypress tests against the deployed URL
-	package = "netlify-plugin-cypress"
-	# let's run tests against the built site
-	[plugins.inputs.postBuild]
-		enable = true
+# TODO: Uncomment once I have a real test suite
+# [[plugins]]
+# 	# runs Cypress tests against the deployed URL
+# 	package = "netlify-plugin-cypress"
+# 	# let's run tests against the built site
+# 	[plugins.inputs.postBuild]
+# 		enable = true
