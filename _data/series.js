@@ -9,6 +9,9 @@ module.exports = {
   },
   'empathic-inquiry': {
     title: 'Empathic Inquiry',
-    posts: ['2023-07_empathy-bottleneck', 'WIP'],
+    posts: [
+      '2023-07_empathy-bottleneck',
+      '2023-10_constructive-empathic-inquiry',
+    ],
   },
 }
