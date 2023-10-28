@@ -95,7 +95,7 @@ If someone has only ever been accustomed to receiving very little empathy and un
 
 All of this sounds pretty dire, but is what I'm describing really that big a deal? Does it truly have that much of an impact on everyday life?
 
-### Don't underestimate fee-fees
+### Don't underestimate feelings
 
 You might be tempted to say that I've only been talking about some hurt feelings here and there. Surely, these puny subjective vagaries don't amount to much in the grand scheme of things. After all, aren't we a rational and civilized species concerned with loftier matters? It's not like Joe Schmoe is going to overrule the laws of thermodynamics by being keenly butthurt.
 
@@ -139,5 +139,6 @@ Very often, conflict doesn't arise from irreconcilable needs but rather from mut
   <summary>Changelog</summary>
 
 - **July 10, 2023**: Replaced the word pipe by tube to make the example for the theory of constraint more conceivable.
+- **October 28, 2023**: Reworded the "Don't underestimate fee-fees" section title to "Don't underestimate feelings".
 
 </details>
