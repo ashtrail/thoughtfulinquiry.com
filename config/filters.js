@@ -44,6 +44,9 @@ const getByURL = (collection, url) =>
 const getByFileSlug = (collection, fileSlug) =>
   (collection || []).find(item => item.page.fileSlug === fileSlug)
 
+const getURLByFileSlug = (collection, fileSlug) =>
+  getByFileSlug(collection, fileSlug)?.page.url
+
 const readTime = function computeReadTime(wordcount) {
   const averageWordPerMinuteSpeed = 250
   return Math.max(Math.round(wordcount / averageWordPerMinuteSpeed), 1)
@@ -104,6 +107,7 @@ module.exports = {
   filterTagList,
   getByURL,
   getByFileSlug,
+  getURLByFileSlug,
   readTime,
   debug,
   obfuscateEmail,

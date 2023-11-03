@@ -30,6 +30,7 @@ const {
   filterTagList,
   getByURL,
   getByFileSlug,
+  getURLByFileSlug,
   readTime,
   debug,
   obfuscateEmail,
@@ -110,6 +111,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter('filterTagList', filterTagList)
   eleventyConfig.addFilter('getByURL', getByURL)
   eleventyConfig.addFilter('getByFileSlug', getByFileSlug)
+  eleventyConfig.addFilter('getURLByFileSlug', getURLByFileSlug)
   eleventyConfig.addFilter('readTime', readTime)
   eleventyConfig.addFilter('debug', debug)
   eleventyConfig.addFilter('obfuscateEmail', obfuscateEmail)
