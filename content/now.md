@@ -20,9 +20,17 @@ My next main projects for 2023 are the following+[Though be warned, I have a bad
 
 ## 2023
 
+### October 2023
+
+Most of this month was dedicated to finishing up and editing my draft for [Resolving conflict through constructive empathic inquiry]({{- collections.posts | getURLByFileSlug('2023-10_constructive-empathic-inquiry')}}). All in all, it took me a decent amount of time (about 20 hours in October), but it's finally done.
+
+This means I'm now free to start working on my next two goals for the year starting in November, namely creating a very basic newsletter to serve as an alternative to my RSS feeds and going back to work on my manifesto outlines. The latter is made up of two trilogies, and although the second is mostly fine, I need to do a good bit of restructuring on the first one to make its content more digestible. To be honest, based on my pace so far, I highly doubt I'll have the first post published before the end of the year.
+
+In completely unrelated news, a succession of fortuitous triggers (including the [D&D actual play](https://www.youtube.com/playlist?list=PLHv5CBoZYv4VQSb6e64P4e4gUXrgNsgq5) from *Baldur's Gate 3*'s voice actors cast) has rekindled my passion for tabletop role-playing games, which hadn't been this fierce for at least two good years. So my sleep schedule scourge of the month has been feverishly reading PDF rule books (mostly [SWADE](https://peginc.com/new-to-savage-worlds-start-here/) related), learning [Foundry VTT](https://foundryvtt.com/), and binge-watching [Matthew Colville](https://www.youtube.com/@mcolville) and [Me, Myself and Die](https://www.youtube.com/playlist?list=PLDvunq75UfH_GAUWYcYSGL_vftZG0nzR-) videos, to name only a few of the main offenders.
+
 ### September 2023
 
-This is the month when I created this Now page. Other than that, it was mostly dedicated to the second half of my empathic inquiry series. It was slow-going, especially to get the momentum started. It led me to refresh my NonViolent Communication theory and get further radicalized into nonviolence as a whole 😅. In any case, I finished the first draft at the beginning of October, so it should be out before November, but I still need to edit and proofread it. It stands at about 5,500 words currently.
+This is the month when I created this Now page. Other than that, it was mostly dedicated to the second half of my empathic inquiry series. It was slow-going, especially to get the momentum started. It led me to refresh my NonViolent Communication theory and get further radicalized into nonviolence as a whole :P. In any case, I finished the first draft at the beginning of October, so it should be out before November, but I still need to edit and proofread it. It stands at about 5,500 words currently.
 
 Spending so much time on such long posts has got me considering diversifying my format. I may publish shorter ones centered on a single concept from time to time to increase my publication frequency and get a breather in between my more ambitious writing marathons.
 
