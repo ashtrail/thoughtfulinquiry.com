@@ -8,7 +8,7 @@ permalink: /blog/beginner-home-workout-routine-without-equipment/
 <details open>
   <summary>Foreword</summary>
 
-  I wrote the initial version of this post in the summer of 2021. Since it was basically done^[Little did I know it would take me about 10 hours to edit the whole thing.], I thought I might as well include it here. It's slightly outside the blog's general theme, though one could argue that being alive is an integral part of experiencing a meaningful life and exercise can help keep things that way a while longer. Furthermore, I think it's a worthwhile topic and this routine is probably fairly well suited to the audience of this type of blog.
+  I wrote the initial version of this post in the summer of 2021. Since it was basically done^[Little did I know it would take me about 12 hours to edit the whole thing.], I thought I might as well include it here. It's slightly outside the blog's general theme, though one could argue that being alive is an integral part of experiencing a meaningful life and exercise can help keep things that way a while longer. Furthermore, I think it's a worthwhile topic and this routine is probably fairly well suited to the audience of this type of blog.
 </details>
 
 Nowadays, most people would probably agree that an exercise routine is one of the pillars of physical health^[with sleep and nutrition] and that they should probably start one if they haven't already. They wouldn't be wrong. According to the World Health Organization, [obesity has nearly tripled around the world since 1975](https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight). Between 1980 and 2014, [the number of cases of diabetes has quadrupled](https://www.who.int/news-room/fact-sheets/detail/diabetes). Lastly, [cardiovascular diseases are the overall leading causes of all deaths](https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)). It’s undeniably a good idea to exercise and try to pursue a healthy diet.
@@ -44,7 +44,7 @@ Because, as a reclusive wimp, that's what I’ve been doing for more than three 
 
 ## My quick, free and easy exercise routine
 
-If you’re reading this post, I’m assuming it’s probably to get the answer advertised by the title rather than reading my extended ramblings. Therefore, I’ll get right into the meat of the subject with a quick overview.
+If you’re reading this post, I’m assuming it’s probably to get the answer advertised by the title rather than peruse my extended ramblings. Therefore, I’ll get right into the meat of the subject with a quick overview.
 
 It's not a particularly controversial take that **regularity beats intensity** when it comes to exercise. I based my strategy on this principle: maximizing frequency to minimize strain and duration. Could I find a short exercise routine that anyone could do quite simply? After some quick investigating online, I settled on the first decent program I found and tried it out the following morning.
 
@@ -207,3 +207,10 @@ The Toolbox Fallacy is a concept I discovered in [this YouTube video](https://yo
 You already have everything you need to get started right now! Furthermore, there isn't only one proper exercise method. Going to the gym is not the only way to get fit+[To be fair, for many people, the gym is a good fit, and there's nothing wrong with that. If it ain't broke, don't fix it.], so think outside the box and find something that works for you.
 
 If my solution does the trick for you, that’s great! If not, that's fine too. Just make your own. That's what I did, and so can you. Do you enjoy biking, swimming, running? The specific activity doesn’t matter all that much as long as you're getting a decent workout on a regular basis. The gym is not the end-all be-all of fitness. Be creative and find an enjoyable and manageable way to stay healthy!
+
+<details class="changelog">
+  <summary>Changelog</summary>
+
+- **November 10, 2023**: Reworked a couple wordings here and there.
+
+</details>
