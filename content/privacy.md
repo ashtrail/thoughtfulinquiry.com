@@ -33,7 +33,7 @@ No personal information (such as IP address) is collected; a hash of the IP addr
 
 This may seem like quite a lot of data, but I think all of it is justified. I tried my best to keep things transparent and easily understandable, so you can judge for yourself. In contrast, most websites use Google Analytics which collects far more information and is not privacy-friendly^[That's generally not Google's strongest suit].
 
-If you'd like even more information, you can read more on GoatCounter's website :
+If you'd like even more information, you can read more on GoatCounter's website:
 
 - [GoatCounter's privacy policy](https://www.goatcounter.com/help/privacy)
 - [GoatCounter and GDPR](https://www.goatcounter.com/help/gdpr)
