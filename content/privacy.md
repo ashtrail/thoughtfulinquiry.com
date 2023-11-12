@@ -11,7 +11,7 @@ No identifying / personal data is collected. No information is shared with third
 
 Apart from the analytics, the website does not collect any data. It doesn't use cookies either. The only piece of information stored^[In your browser's localStorage] is your favorite theme (i.e. light or dark) if you change the default manually.
 
-I plan to add a newsletter subscription form at some point, which will collect e-mail addresses on opt-in.
+I also link to my newsletter subscription form, which collects your e-mail address if you choose to subscribe. The newsletter emails use UTM tags when linking back to  the blog, which allows me to know whether you came from one of my emails when you visit a page (cf. the Referer section below). No further information is collected for the newsletter.
 
 If you have any questions or concerns about this privacy policy, you can [contact me]({{ metadata.author.contact }}).
 
@@ -33,7 +33,14 @@ No personal information (such as IP address) is collected; a hash of the IP addr
 
 This may seem like quite a lot of data, but I think all of it is justified. I tried my best to keep things transparent and easily understandable, so you can judge for yourself. In contrast, most websites use Google Analytics which collects far more information and is not privacy-friendly^[That's generally not Google's strongest suit].
 
-If you'd like even more information, you can read more on GoatCount's website :
+If you'd like even more information, you can read more on GoatCounter's website :
 
 - [GoatCounter's privacy policy](https://www.goatcounter.com/help/privacy)
 - [GoatCounter and GDPR](https://www.goatcounter.com/help/gdpr)
+
+<details class="changelog">
+  <summary>Changelog</summary>
+
+- **November 12, 2023**: Updated the policy to include the information optionally collected for the newsletter.
+
+</details>
