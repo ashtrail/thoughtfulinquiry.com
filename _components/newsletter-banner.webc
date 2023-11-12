@@ -2,9 +2,23 @@
   <div class="text-container">
     <h2>Want to stay up to date?</h2>
 
+    <div class="newsletter-block">
+      <a
+        class="newsletter-link"
+        target="_blank"
+        href="https://subscribepage.io/thoughtfulinquiry"
+        aria-label="Join the newsletter"
+      >
+        <svg width="19" height="19">
+          <use xlink:href="#lucide-newsletter"></use>
+        </svg>
+        Join the newsletter
+      </a>
+    </div>
+
     <div class="feeds">
       <div class="feed-message tooltip">
-        <p>Subscribe to the blog's feed</p>
+        <p>Subscribe to the feed</p>
           <svg width="16" height="16" class="help-icon">
             <use xlink:href="#lucide-help"></use>
           </svg>
@@ -56,6 +70,31 @@
   .newsletter h2 {
     padding-top: 0;
     color: var(--link-color);
+  }
+
+  .newsletter-block {
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+  }
+
+  .newsletter-link {
+    display: flex;
+    justify-content: center;
+    width: max-content;
+    margin: auto;
+    font-size: 1.1em;
+    gap: 0.4em;
+    padding: .8em 1.2em;
+    font-weight: 600;
+    background: var(--cta-gradient-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px var(--cta-shadow);
+    color: var(--cta-text-color);
+  }
+
+  .newsletter-link:hover {
+    background: var(--reversed-cta-gradient-color);
+    color: var(--cta-text-hover-color);
   }
 
   .feeds {

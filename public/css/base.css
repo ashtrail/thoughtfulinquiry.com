@@ -6,7 +6,7 @@
 
 /*
 * Fonts used:
-* - Sans-serif - Sora : 300, 400, 500, 600, 700
+* - Sans-serif - Sora : 200, 300, 400, 500, 600, 700
 * - Serif - Lora : 400, 400i, 600, 700
 */
 
@@ -78,7 +78,7 @@
   --layer-toast: 5;
 
   /* --- Color palette ------------------------------------------------------ */
-  --color-orange-00: hsl(38, 85%, 80%);
+  --color-orange-00: #f7d8a1;
   --color-orange-10: #f8c772; /* Topaz  */
   --color-orange-30: #e18d2d; /* Cadmium Orange */
   --color-orange-30a: rgba(235, 142, 37, 0.4);
@@ -124,6 +124,9 @@
   --card-shadow: var(--color-blue-70a);
   --logo-shadow: rgba(var(--color-orange-70-rgb), 0.5);
   --logo-hero-shadow: rgba(var(--color-orange-70-rgb), 0.5);
+  --cta-shadow: rgba(var(--color-orange-70-rgb), 0.75);
+  --cta-text-color: var(--color-orange-00);
+  --cta-text-hover-color: var(--color-blue-100);
 
   --background-gradient-color: linear-gradient(
     to right,
@@ -169,6 +172,16 @@
     var(--color-orange-30) 40%,
     var(--color-orange-50) 100%
   );
+
+  --cta-gradient-colors: var(--color-magenta-50) 0%, var(--color-magenta-50) 30%,
+    var(--color-magenta-70) 100%;
+
+  --cta-gradient-color: linear-gradient(to bottom, var(--cta-gradient-colors));
+
+  --reversed-cta-gradient-color: linear-gradient(
+    to top,
+    var(--cta-gradient-colors)
+  );
 }
 
 /* dark theme */
@@ -188,6 +201,9 @@
   --card-shadow: var(--color-orange-30a);
   --logo-shadow: var(--color-blue-50);
   --logo-hero-shadow: var(--color-blue-90);
+  --cta-text-color: var(--color-blue-100);
+  --cta-text-hover-color: var(--color-orange-00);
+  --cta-shadow: var(--color-blue-90);
 
   --background-gradient-color: linear-gradient(
     to right,
@@ -231,6 +247,16 @@
     to bottom,
     var(--color-blue-30) 0%,
     var(--color-blue-50) 50%
+  );
+
+  --cta-gradient-colors: var(--color-magenta-20) 0%, var(--color-magenta-20) 30%,
+    var(--color-magenta-50) 100%;
+
+  --cta-gradient-color: linear-gradient(to bottom, var(--cta-gradient-colors));
+
+  --reversed-cta-gradient-color: linear-gradient(
+    to top,
+    var(--cta-gradient-colors)
   );
 }
 
@@ -459,7 +485,7 @@ details[open] summary {
 }
 
 details p:has(> img) {
-  margin: .25em .75em;
+  margin: 0.25em 0.75em;
 }
 
 /* Max width = 700px and max height = 450px */

@@ -14,9 +14,9 @@ It's a way to share what I'm working on in the background and keep readers poste
 
 My next main projects for 2023 are the following+[Though be warned, I have a bad track record when it comes to estimations. Almost everything takes longer than you'd expect.]:
 
-1. ✅ ~~Finishing my empathic inquiry series.~~
+1. <span class="completed">✅ Finishing my empathic inquiry series.</span>
 2. Start publishing a manifesto series describing the general philosophy and positions of this blog. In order to maintain a sense of diversity (for the readers as well as myself), I plan to publish one of the six posts of the manifesto, then a standalone, and rinse and repeat until I'm done with all of them.
-3. Launching a newsletter. For the moment, it'll mostly be to keep people who don't use RSS feeds updated on new posts, but I intend to improve upon it with time.
+3. <span class="completed">✅ Launching a newsletter. For the moment, it'll mostly be to keep people who don't use RSS feeds updated on new posts, but I intend to improve upon it with time.</span>
 
 ## 2023
 

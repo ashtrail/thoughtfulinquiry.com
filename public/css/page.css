@@ -64,6 +64,11 @@ h3:hover > .header-anchor {
   padding: 1em 2em;
 }
 
+span.completed {
+  color: var(--subtitle-color);
+  font-weight: 200;
+}
+
 /* FIXME: too much bottom padding for h4 titles */
 
 /* --- Sticky TOC -------------------------------------------------- */
