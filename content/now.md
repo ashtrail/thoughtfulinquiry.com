@@ -20,6 +20,14 @@ My next main projects for 2023 are the following+[Though be warned, I have a bad
 
 ## 2023
 
+### November 2023
+
+In November, I created the first version of my newsletter with [Mailerlite](https://www.mailerlite.com/). For the moment, I'll only use it to send updates on new posts, but I should expand its scope with time. I spent the rest of the month iterating on my manifesto outlines, but preliminary feedback leads me to believe they're still a long way from being ready. I'd be quite surprised (and disappointed) if I still haven't published anything on that front by the end of 2024, but I definitely won't manage to squeeze it in before the end of the current year.
+
+In any case, there are too many unknowns regarding this project, so I won't commit to any definite date and allocate some of my time to other posts in order to keep a semiregular rhythm of publication. I'm going to try to pick something shorter than usual and hopefully, I'll manage to get it out sometime in December. No promises though.
+
+On an unrelated topic, my latest TTRPG rabbit hole on the side is still going strong. I've also started trying a few really nifty Mac productivity applications, namely [Hookmark](https://hookproductivity.com/), which lets you create links and connect almost anything on your Mac like files and emails, [Raycast](https://www.raycast.com/), a launcher like spotlight but on steroids^[Probably my favorite of the lot, it'd already be worth it if all it had going for itself was its built-in calculator which includes currency and timezone conversions, but there's a whole lot more.], and [Arc](https://arc.net/), a browser with a couple of innovating and user-friendly concepts^[...and a concerning lack of business plan]. You can find overviews for each of them on YouTube to get a feel for what they can do. If you use a Mac, I'd definitely recommend at least giving them a try.
+
 ### October 2023
 
 Most of this month was dedicated to finishing up and editing my draft for [Resolving conflict through constructive empathic inquiry]({{- collections.posts | getURLByFileSlug('2023-10_constructive-empathic-inquiry')}}). All in all, it took me a decent amount of time (about 20 hours in October), but it's finally done.
