@@ -12,7 +12,7 @@ I may add content and split this page in two in the future. In the meantime, you
 
 ### Legal
 
-Here are some links to the [content's license](/license) and to the [site's privacy policy](/privacy). Basically, the text is only very loosely copyrighted. Feel free to quote the website's content (even fairly hearty portions), just remember to credit Thoughtful Inquiry and link back to the page where you found it. Data-wise, I only collect pretty minimal and aggregated anonymous analytics. If you chose to subscribe to my newsletter, I also store your email address through [MailerLite](https://www.mailerlite.com/). I share nothing with third-parties. There is no targeted tracking.
+Here are some links to the [content's license](/license) and to the [site's privacy policy](/privacy). Basically, the text is only very loosely copyrighted. Feel free to quote the website's content—even fairly hearty portions—just remember to credit Thoughtful Inquiry and link back to the page where you found it. Data-wise, I only collect pretty minimal and aggregated anonymous analytics. If you chose to subscribe to my newsletter, I also store your email address through [MailerLite](https://www.mailerlite.com/). I share nothing with third-parties. There is no targeted tracking.
 
 ### Design
 
