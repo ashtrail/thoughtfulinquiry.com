@@ -20,6 +20,22 @@ My next main projects for 2023 are the following+[Though be warned, I have a bad
 
 ## 2023
 
+### December 2023
+
+December was quite the month for this blog (and yours truly). Besides publishing my first very short post and starting the draft for my next big one, I was struck with a lightning streak of epiphanies regarding my personal history, a good amount of my behavior patterns, as well as who I'm trying to reach, and what I'm trying to accomplish with this blog and how they all relate to each other.
+
+As it so happens, the final puzzle piece of this specific enigma happened to be identifying my [fearful avoidant attachment style](https://en.wikipedia.org/wiki/Attachment_theory#Fearful-avoidant) and how it pertains to childhood emotional wounds of being misunderstood, alienated, and peremptorily judged^[Definitely can't have anything to do with my mania regarding the importance of thoughtfulness, nuance, fairness, and the validation of subjective experiences.].
+
+It unlocked a new spring of clarity on what I do, why I do it, and who I do it for. I've further refined my "niche"^[Now that I've found mine, the word doesn't seem as repulsive to me as it used to. But you can replace it with any of these more romantic and inspiring alternatives: purpose, calling, dharma, ikigai, or any other similar term you favor.] from "seeking fulfillment through the balance of rationality and subjectivity" to "providing hope, purpose & support for skeptics who want to believe". The same goes for the archetype I'm trying to embody, namely that of the intellectual swashbuckler, who disarms ideological bullies with flair and steals from the certainty rich to give to the certainty poor and downtrodden.
+
+I won't dive into the details right now. These concepts deserve some individualized and in-depth elaboration, whereas these updates are supposed to be broad and short. However, I should start to make some changes in how I describe this website and what it centers around pretty soon.
+
+Discovering George Kao's and Tad Hargrave's work (respectively, [Authentic Marketing](https://www.georgekao.com/) and [Marketing for Hippies](https://marketingforhippies.com/)) was a huge help during this process. I very warmly and heartily recommend their work. They managed to transmute my unending supply of existential dread and contempt towards marketing into inspiration and stimulation. Had you told me I'd become amenable to entrepreneurship a month ago, I would have scoffed. Those are some impressive outlook judo moves.
+
+Although, just to be clear, it didn't change the vast majority of my previously held sentiments. Most of the concepts and strategies peddled under the guise of marketing and business these days are still 100% morally defunct gag-reflex inducing utter soulless trash. I've simply realized they're not the only way to go at it.
+
+In other news, I also enjoyed a vacation for the end-of-year holidays with my close family, which is always a great time. It also served as yet another opportunity for shared introspective insights.
+
 ### November 2023
 
 In November, I created the first version of my newsletter with [Mailerlite](https://www.mailerlite.com/). For the moment, I'll only use it to send updates on new posts, but I should expand its scope with time. I spent the rest of the month iterating on my manifesto outlines, but preliminary feedback leads me to believe they're still a long way from being ready. I'd be quite surprised (and disappointed) if I still haven't published anything on that front by the end of 2024, but I definitely won't manage to squeeze it in before the end of the current year.
