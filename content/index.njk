@@ -16,11 +16,11 @@ eleventyNavigation:
 
 <div style="margin: 2em 0;">
 {%- from 'post-link.njk' import postLink %}
-{%- set featured = collections.posts | getByFileSlug('2023-07_empathy-bottleneck') %}
-{{- postLink(featured, isSmall = true) }}
-{%- set featured2 = collections.posts | getByFileSlug('2023-07-21_exercise-routine') %}
+{%- set featured1 = collections.posts | getByFileSlug('2024-02_too-skeptical-to-disbelieve') %}
+{{- postLink(featured1, isSmall = true) }}
+{%- set featured2 = collections.posts | getByFileSlug('2023-12_hindsight_purpose') %}
 {{- postLink(featured2, isSmall = true) }}
-{%- set featured3 = collections.posts | getByFileSlug('2023-12_hindsight_purpose') %}
+{%- set featured3 = collections.posts | getByFileSlug('2023-07_empathy-bottleneck') %}
 {{- postLink(featured3, isSmall = true) }}
 </div>
 
