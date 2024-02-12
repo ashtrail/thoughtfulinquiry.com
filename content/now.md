@@ -12,13 +12,66 @@ It's a way to share what I'm working on in the background and keep readers poste
 
 ## Roadmap
 
-My next main projects for 2023 are the following+[Though be warned, I have a bad track record when it comes to estimations. Almost everything takes longer than you'd expect.]:
+For the first half of 2024, I plan to:
+1. Focus on shorter posts for the time being and increase my publishing frequency (about 1 post a month would be a decent improvement).
+2. Clarify my general philosophy and target audience with improved descriptions and dedicated new pages.
+
+## 2023
+
+### Year recap
+
+#### Overview
+
+This was a pretty significant year, both for the blog and I. After all, the former first saw the light of day in July 2023. Other noteworthy milestones include the creation of my newsletter, the publication of my first four posts, and the launch of this Now page.
+
+2023 was probably the most impactful year of my life^[Up to this point at least.] in terms of personal epiphanies, especially regarding my core philosophy, which was a big driver behind the creation of this blog. Starting to work consistently on fleshing out and sharing my ideas has been a massive clarity booster.
+
+I'd been intending to start a blog for about three years and, despite some attempts, I'd never made it past prototyping. I think this stalling was caused in large part by my general confusion regarding the purpose of said blog, beyond simply putting my ideas out there. Nevertheless, these early prototypes served as the basis for the first notes of my burgeoning PKM system^[PKM stands for Personal Knowledge Management. By PKM system I'm referring to my personal [Obsidian](https://obsidian.md/) vault which I've been cultivating for more than two years and a half.] which helped me incubate my personal constellation of fundamental ideas to an acceptable level of maturity.
+
+And once I finally struck upon a concept close enough to my philosophical kernel in February 2023, I could begin realizing how manifold seemingly scattered ideas actually tied in together. That was good enough to get started and now, one year later, I've delineated my overall purpose well enough to devise the foundations for a career centered around it a few years from now.
+
+#### Publications
+
+These were my publications of 2023:
+- [Why productive conflict resolution is so rare]({{- collections.posts | getURLByFileSlug('2023-07_empathy-bottleneck')}}), published on the 2nd of July, for a total of 3448 words and about 24 hours of work.
+- [How to set up a quick, free and easy exercise routine]({{- collections.posts | getURLByFileSlug('2023-07-21_exercise-routine')}}), published on the 21st of July, for a total of 3473 words and 12 and a half hours of work^[100% of that time was spent on editing, I had written the first draft two years earlier.].
+- [Resolving conflict through constructive empathic inquiry]({{- collections.posts | getURLByFileSlug('2023-10_constructive-empathic-inquiry')}}), published on the 28th of October, for a total of 5640 words and 34 and a half hours of work.
+- [Everything serves a purpose in hindsight]({{- collections.posts | getURLByFileSlug('2023-12_hindsight_purpose')}}), published on the 16th of December, for a total of 349 words and 1 hour and 40 minutes of work^[I started with an already fairly fleshed out first draft.].
+
+NB: I only start measuring time spent when I intentionally sit at my desk with the explicit goal of publishing a post. This doesn't include my previous note-making or any brainstorming and pre-drafting I do in my head or on my phone when suddenly struck by inspiration.
+
+Based on the stats of what I've published so far, I seem to follow this general pattern in terms of time investment:
+
+- **Brainstorming**, 5 to 10% of time spent<br>
+  Gathering related ideas, coming up with the smorgasbord of concepts I want to broach, and grouping them into a few general themes.
+
+- **Outlining**, 5 to 15% of time spent<br>
+  Turning the content of my brainstorm into a fairly structured list of arguments.
+
+- **Drafting**, 65% of time spent<br>
+  Writing the first draft. Transforming my outline into paragraphs. This usually involves realizing my outline was kinda crap and reworking it once I'm already halfway done, but also reevaluating my entire life decisions, especially when the post is too damn long.
+
+- **Editing & proofreading**, 10 to 30% of time spent<br>
+  Reading everything aloud paragraph by paragraph and reworking clunky sentences. Using Grammarly and LanguageTool to proofread grammar and spelling. Going over the entire thing one last time to address last-minute nitpicks, and then publishing it.
+
+#### Projects
+
+
+In September, I set up the following objectives for the end of 2023:
 
 1. <span class="completed">✅ Finishing my empathic inquiry series.</span>
 2. Start publishing a manifesto series describing the general philosophy and positions of this blog. In order to maintain a sense of diversity (for the readers as well as myself), I plan to publish one of the six posts of the manifesto, then a standalone, and rinse and repeat until I'm done with all of them.
 3. <span class="completed">✅ Launching a newsletter. For the moment, it'll mostly be to keep people who don't use RSS feeds updated on new posts, but I intend to improve upon it with time.</span>
 
-## 2023
+I completed two out of these three: the first and last. Despite working a lot on my manifesto/core philosophy, which explains in part my haphazard publishing frequency this year^[The other part is that I'm an erratic slacker prone to perfectionism, existential doubt, overwhelm, and distraction.], I didn't get to a point where I could start publishing it by the end of the year. Nevertheless, that work definitely helped me clarify my niche and glean new insights.
+
+Initially, I intended to publish it as a pretty massive six-part post series, but I'm having second thoughts. I'll probably write an overview page sometime in 2024 and focus on creating smaller interconnected pieces of content instead. They're easier to digest for readers and easier to write on my end. I'm leaning back stronger on a bottom-up approach, which seems to suit me better. It's easier to polish bricks one by one than trying to juggle an entire wall at once.
+
+I've also changed my mind somewhat regarding the newsletter. I personally dislike both lengthiness and exclusivity when I'm on the receiving end of newsletters. Emails are a pretty stressful and crappy way to engage with long-form content. If it's a worthy topic just make it a blog post, if not just don't even write it in the first place.
+
+So I think I'll just use my newsletter as a way to send short updates on the content I'm publishing on the blog. Additionally, I might send these monthly Now page updates through it too, to keep subscribers posted without the need to sporadically check the page. I'm also considering switching mailing providers, but I need to investigate the matter in more depth.
+
+That's about it for this 2023 recap.
 
 ### December 2023
 
