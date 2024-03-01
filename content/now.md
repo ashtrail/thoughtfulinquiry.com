@@ -34,9 +34,9 @@ And once I finally struck upon a concept close enough to my philosophical kernel
 
 These were my publications of 2023:
 - [Why productive conflict resolution is so rare]({{- collections.posts | getURLByFileSlug('2023-07_empathy-bottleneck')}}), published on the 2nd of July, for a total of 3448 words and about 24 hours of work.
-- [How to set up a quick, free and easy exercise routine]({{- collections.posts | getURLByFileSlug('2023-07-21_exercise-routine')}}), published on the 21st of July, for a total of 3473 words and 12 and a half hours of work^[100% of that time was spent on editing, I had written the first draft two years earlier.].
+- [How to set up a quick, free and easy exercise routine]({{- collections.posts | getURLByFileSlug('2023-07_exercise-routine')}}), published on the 21st of July, for a total of 3473 words and 12 and a half hours of work^[100% of that time was spent on editing, I had written the first draft two years earlier.].
 - [Resolving conflict through constructive empathic inquiry]({{- collections.posts | getURLByFileSlug('2023-10_constructive-empathic-inquiry')}}), published on the 28th of October, for a total of 5640 words and 34 and a half hours of work.
-- [Everything serves a purpose in hindsight]({{- collections.posts | getURLByFileSlug('2023-12_hindsight_purpose')}}), published on the 16th of December, for a total of 349 words and 1 hour and 40 minutes of work^[I started with an already fairly fleshed out first draft.].
+- [Everything serves a purpose in hindsight]({{- collections.posts | getURLByFileSlug('2023-12_hindsight-purpose')}}), published on the 16th of December, for a total of 349 words and 1 hour and 40 minutes of work^[I started with an already fairly fleshed out first draft.].
 
 NB: I only start measuring time spent when I intentionally sit at my desk with the explicit goal of publishing a post. This doesn't include my previous note-making or any brainstorming and pre-drafting I do in my head or on my phone when suddenly struck by inspiration.
 
