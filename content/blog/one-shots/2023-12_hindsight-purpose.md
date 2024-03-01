@@ -3,6 +3,8 @@ title: 'Everything serves a purpose in hindsight'
 description: "A short reflection on providence, abstruse universe magic, post-hoc rationalizations, Catch-22s and coping with life's bullshit."
 date: 2023-12-16
 permalink: /blog/everything-serves-a-purpose-in-hindsight/
+related:
+- 2024-03_what-it-can-spark
 ---
 
 > Life can only be understood by looking backward; but it must be lived looking forward.

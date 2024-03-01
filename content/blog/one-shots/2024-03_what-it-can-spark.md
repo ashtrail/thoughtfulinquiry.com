@@ -3,6 +3,8 @@ title: What it can spark isn't always bound by what it is
 description: "We're a nuanced bunch around these parts, and we'd be loath to hastily and unfairly ostracize perfectly salvageable conceptual frameworks, wouldn't we now?"
 date: 2024-03-01
 permalink: /blog/what-it-can-spark-isnt-always-bound-by-what-it-is/
+related:
+- 2023-12_hindsight-purpose
 ---
 
 Sometimes the value of something lies more in the insight that can be gleaned from what it causes you to reflect on rather than its literal content. In other words, the capacity to spark inspiration is the crux of its worth, independently of the first-degree appraisal of its source material in and of itself.

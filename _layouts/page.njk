@@ -31,6 +31,7 @@ layout: base
 {% endif %}
 
 {% from 'post-series.njk' import postSeries %}
+{% from 'post-link.njk' import postLink %}
 
 {% set currentSeries = series | getSeriesData(seriesName, page.fileSlug) %}
 
@@ -115,6 +116,19 @@ layout: base
 
 	{% if isPost %}
 		{{ postSeries(previousPost, nextPost, currentSeries, isReversed = true) }}
+	{% endif %}
+
+	{% if related and related.length > 0 %}
+		<div class="divider-with-title related-posts">
+			<div class="half-divider"></div>
+			<span aria-label="Related">Related</span>
+			<div class="half-divider"></div>
+		</div>
+
+		<p>If you liked this post, you might also enjoy:</p>
+		{% for slug in related %}
+			{{ postLink(collections.posts | getByFileSlug(slug), isSmall = true) }}
+		{% endfor %}
 	{% endif %}
 
 </article>

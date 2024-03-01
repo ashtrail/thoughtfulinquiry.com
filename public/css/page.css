@@ -1,9 +1,13 @@
-.series-header {
+.divider-with-title {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 0.25em;
   margin: 1.25em 0 1em 0;
+}
+
+.related-posts {
+  margin: 3em 0 1em 0;
 }
 
 .half-divider {
@@ -12,7 +16,7 @@
   background-color: var(--title-color);
 }
 
-.series-header > span {
+.divider-with-title > span {
   color: var(--title-color);
   padding: 0 0.5em;
   font-size: 0.85em;
