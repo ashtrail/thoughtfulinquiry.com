@@ -9,8 +9,8 @@
 {%- set metaDesc %}{{ description or metadata.description }}{%- endset %}
 {%- set fullPageURL %}{{ page.url | htmlBaseUrl(metadata.url) }}{%- endset %}
 
-<title>{{ metaTitle }}</title>
-<meta name="description" content="{{ metaDesc }}"/>
+<title>{{ metaTitle | safe }}</title>
+<meta name="description" content="{{ metaDesc | safe }}"/>
 
 <meta name="generator" content="{{ eleventy.generator }}"/>
 

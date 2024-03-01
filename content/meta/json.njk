@@ -8,7 +8,7 @@ permalink: /feed/feed.json
 	"language": "{{ metadata.language }}",
 	"home_page_url": "{{ metadata.url | addPathPrefixToFullUrl }}",
 	"feed_url": "{{ permalink | htmlBaseUrl(metadata.url) }}",
-	"description": "{{ metadata.description }}",
+	"description": "{{ metadata.description | safe }}",
 	"authors": [{
 		"name": "{{ metadata.author.name }}",
 		"url": "{{ metadata.author.url }}"
@@ -27,9 +27,9 @@ permalink: /feed/feed.json
 		{
 			"id": "{{ absolutePostUrl }}",
 			"url": "{{ absolutePostUrl }}",
-			"title": "{{ post.data.title }}",
+			"title": "{{ post.data.title | safe }}",
 		{%- if post.data.description %}
-			"summary": "{{ post.data.description }}",
+			"summary": "{{ post.data.description | safe }}",
 		{%- endif %}
 			"date_published": "{{ post.date | dateToRfc3339 }}",
 		{%- if post.data.showLastEdited %}
