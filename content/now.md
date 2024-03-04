@@ -16,6 +16,26 @@ For the first half of 2024, I plan to:
 1. Focus on shorter posts for the time being and increase my publishing frequency (about 1 post a month would be a decent improvement).
 2. Clarify my general philosophy and target audience with improved descriptions and dedicated new pages.
 
+## 2024
+
+### February
+
+At the very beginning of February, I had a sudden spurt of inspiration for my *Too skeptical to disbelieve* post, which I started writing and finished publishing within the span of three days^[This is why I like short posts. A couple of sessions of fun, and you're done, instead of a one to two-month slog of existential ups and downs.]. I spent the rest of the month finishing the edits on my bigger *What it can spark isn't always bound by what it is* post. Lastly, I wrote my 2023 recap on this Now page.
+
+February also marks the end of my contract as a web developer at MAPAL after two years and four months of service. The departure process had been brewing since the end of October and was pretty mired in uncertainty up until recently, so I'm glad that it's finally done. I'm not exactly sure what kind of job I'll be aiming for next. I need to do some research and assessments first. In the meantime, I'll have more time to dedicate to the blog.
+
+Now that it's finally finished, I also binged the entire *Attack on Titan* anime from start to end, as well as the two first seasons of *Vinland Saga*^[Technically, I watched a lot more stuff, but the bulk of it was less significant than these two.]. I highly recommend both, they're some of the best anime I've ever watched—and I've seen a lot by now—even if the end of the former is a bit disappointing in my opinion.
+
+I often feel that way when a significant portion of the mystery driving the plot hinges on uncovering the motivations pushing one character (usually the antagonist) to go to such lengths. I never find them sufficiently convincing in the end+[To be clear, I find most of *Attack on Titan*'s reveals to be excellent, same for its characters' motivations and psychology. It's just the incentives of two specific and influential characters, which underpin the last arc and are only revealed at the very end, that left me perplexed.]. Good old: all that for this?
+
+The exact same thing happened with every Naoki Urasawa manga I read so far (i.e. *Pluto*, *Monster* & *20th Century Boys*). I still love them, but I wish the quality of the final reveal was on par with the rest of the story. The only exception to this pattern I can think of is the movie *Oldboy* by Park Chan-wook.
+
+### January
+
+During January, I finished the first draft of my *What it can spark isn't always bound by what it is* post, which I started working on in December. I also kept refining and summarizing my overall philosophy in the background.
+
+On a more personal front, I started learning Google Sheets to automate the management of some of my finances, and it's a pretty nifty tool. I also acquired a Meta Quest 2 virtual reality headset and completed *SUPERHOT VR*, which is a great game just like the non-VR original. Wiggling around in VR is definitely more immersive and strenuous than your typical "flat screen" gaming.
+
 ## 2023
 
 ### Year recap
