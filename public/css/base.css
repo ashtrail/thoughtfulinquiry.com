@@ -571,8 +571,9 @@ input[type='submit'].primary-button:hover {
   width: 65%;
 }
 
-::placeholder {
+.email-input::placeholder {
   color: var(--color-blue-90);
+  opacity: 60%;
 }
 
 .buttondown-link {
