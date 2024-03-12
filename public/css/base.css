@@ -526,6 +526,61 @@ details[open] summary::before {
   width: 1px;
 }
 
+/* --- Newsletter ----------------------------------------------------------- */
+
+.embeddable-buttondown-form {
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+}
+
+.newsletter-fields {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75em;
+  margin-bottom: 0.5em;
+}
+
+.primary-button,
+input[type='submit'].primary-button {
+  display: flex;
+  justify-content: center;
+  width: max-content;
+  font-size: 1.1em;
+  gap: 0.4em;
+  padding: 0.8em 1.2em;
+  font-weight: 600;
+  background: var(--cta-gradient-color);
+  border-radius: 8px;
+  box-shadow: 0 4px 10px var(--cta-shadow);
+  color: var(--cta-text-color);
+}
+
+.primary-button:hover,
+input[type='submit'].primary-button:hover {
+  background: var(--reversed-cta-gradient-color);
+  color: var(--cta-text-hover-color);
+}
+
+.email-input {
+  padding: 0.7em;
+  border-radius: 8px;
+  border: 2px solid var(--title-color);
+  font-size: 1em;
+  width: 65%;
+}
+
+::placeholder {
+  color: var(--color-blue-90);
+}
+
+.buttondown-link {
+  margin: auto;
+  font-size: 0.7em;
+  width: max-content;
+}
+
 /*
 * ==============================================================================
 * Layout

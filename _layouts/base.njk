@@ -51,9 +51,12 @@
 		</aside>
 
 		<footer>
-			{% renderTemplate "webc" %}
-			<newsletter-banner webc:nokeep></newsletter-banner>
-			{% endrenderTemplate %}
+			{% if not hideNewsletterBanner %}
+				{% renderTemplate "webc" %}
+				<newsletter-banner webc:nokeep></newsletter-banner>
+				{% endrenderTemplate %}
+			{% endif %}
+
 			{% include 'footer.njk' %}
 		</footer>
 	</body>
