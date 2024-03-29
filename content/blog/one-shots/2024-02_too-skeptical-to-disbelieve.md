@@ -31,7 +31,7 @@ They believe:
 - that the one specific location they were raised in and from which they inherited a substantial share of their biases is self-evidently the pinnacle of human civilization;
 - that the only thing keeping us from reaching utopia is the existence of governmental regulations on the free market;
 - that the only thing keeping us from reaching utopia is withholding the means of production from under the all-encompassing supervision of the state;
-- that they know what's true and right with enough certainty to impose it on everyone else—by force if necessary;
+- that they know what's true and right with enough certainty [to impose it on everyone else—by force if necessary]({{ collections.posts | getURLByFileSlug('2024-04_ideological-imperialism') }});
 - ...
 
 The list goes on and on.
