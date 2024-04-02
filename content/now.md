@@ -18,6 +18,29 @@ For the first half of 2024, I plan to:
 
 ## 2024
 
+### March
+
+Seeing as I'm currently unemployed, I had more time than usual to invest in my personal projects and got a decent amount of work done.
+
+When it comes to the blog:
+- I published my *What it can spark isn't bound by what it is* post at the beginning of the month.
+- I added a "related" section at the ends of posts to link to other similar and/or relevant reads.
+- I spent most of the first half of the month working on a new page to give an overview of who my main target audience is and how I think my general philosophy could be of use to them. It still needs time, but it's the first step in my overarching goal of clarification, and I'll keep at it in between posts.
+- I spent the second half of the month writing my *Ideological imperialism* post. It took a bit more time than I initially anticipated, but not to the point of jeopardizing my objective of monthly publication.
+- I switched my newsletter provider from Mailerlite to [Buttondown](https://buttondown.email/refer/thoughtfulinquiry).
+
+I also took George Kao's [Authentic Business Planning](https://www.georgekao.com/bizplan) and [Netcaring](https://www.georgekao.com/netcaring) courses. I recommend both!
+
+The first inspired me to improve the sustainability of my work routine as well as my planning and project tracking. It also emphasized the importance of working lightly and experimenting, and gave me new ideas for the different types of "content" and levels of effort investment I could try out. They should help rein in my perfectionism and allow me to increase my publication frequency and diversity.
+
+The second helped assuage some of my conflicted feelings around networking by focusing on genuine connections free from covert agendas.
+
+Lastly, I have another project in the pipes, but it still needs some time in the oven. I should be revealing it shortly, though.
+
+Moving on from work-related topics, I'd like to share two notable entries of my monthly media consumption. The first is Contrapoint's latest video, [Twilight](https://www.youtube.com/watch?v=bqloPw5wp48). It's quite lengthy but worth the watch. As far as I'm concerned, it's one of her best, very insightful, and excellent production value (as usual).
+
+The second is the anime adaptation of *Monster* by Naoki Urasawa. I had read the original manga a bit less than one decade ago, but this was my first watch. It's excellent, just like the manga. I found the ending more satisfying this time around, in part due to engaging with various fan interpretations ([this one](https://www.reddit.com/r/MonsterAnime/comments/wy6czw/a_nonexistent_human_being_or_is_he_character/) being the best I found so far, beware: massive spoilers of course).
+
 ### February
 
 At the very beginning of February, I had a sudden spurt of inspiration for my *Too skeptical to disbelieve* post, which I started writing and finished publishing within the span of three days^[This is why I like short posts. A couple of sessions of fun, and you're done, instead of a one to two-month slog of existential ups and downs.]. I spent the rest of the month finishing the edits on my bigger *What it can spark isn't always bound by what it is* post. Lastly, I wrote my 2023 recap on this Now page.
