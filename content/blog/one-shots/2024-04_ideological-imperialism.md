@@ -1,5 +1,5 @@
 ---
-title: Ideological Imperialism
+title: Ideological imperialism
 description: If only people could let go of their devilish urge to evangelize and assimilate, by fair means or foul. Harmonious diversity beats compulsory homogeneity.
 date: 2024-04-02
 permalink: /blog/ideological-imperialism/
