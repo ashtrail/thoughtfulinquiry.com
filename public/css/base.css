@@ -382,6 +382,10 @@ main ul {
   padding: 0.5em 0em 0.5em 1em;
 }
 
+main ul ul li {
+  list-style-type: circle;
+}
+
 main ol {
   list-style-type: decimal;
   padding: 0.5em 0em 0.5em 1em;
