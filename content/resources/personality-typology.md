@@ -16,7 +16,7 @@ If you're brand new to the MBTI I'd recommend starting with [Personality Junkie]
 
 It's a good typology blog overall, so don't hesitate to check out more of their content.
 
-You might also be interested in my this video on [deducing the cognitive functions from a 4 letter type and conversely](https://www.youtube.com/watch?v=YDSWY1kr4vU).
+You might also be interested in my video on [deducing the cognitive functions from a four letter type and conversely](https://www.youtube.com/watch?v=YDSWY1kr4vU).
 
 To learn the types, I'd recommend [Michael Pierce's playlist on the topic](https://www.youtube.com/watch?v=zdwGmkc9brI&list=PL6rzdODmcL65kvRx1us3UXkxWclo-LJ_h&pp=iAQB). His YouTube channel is a good place to learn more about the MBTI in general once you've got the basics down.
 
