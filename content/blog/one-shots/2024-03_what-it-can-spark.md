@@ -2,6 +2,7 @@
 title: What it can spark isn't always bound by what it is
 description: "We're a nuanced bunch around these parts, and we'd be loath to hastily and unfairly ostracize perfectly salvageable conceptual frameworks, wouldn't we now?"
 date: 2024-03-01
+lastEdited: 2024-04-26
 permalink: /blog/what-it-can-spark-isnt-always-bound-by-what-it-is/
 related:
 - 2023-12_hindsight-purpose
