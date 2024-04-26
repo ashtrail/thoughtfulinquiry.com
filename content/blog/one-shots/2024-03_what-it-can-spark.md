@@ -7,6 +7,10 @@ related:
 - 2023-12_hindsight-purpose
 ---
 
+> All models are wrong, some are useful.
+>
+> – Aphorism popularized by [the statistician George Box](https://en.wikipedia.org/wiki/All_models_are_wrong)
+
 Sometimes the value of something lies more in the insight that can be gleaned from what it causes you to reflect on rather than its literal content. In other words, the capacity to spark inspiration is the crux of its worth, independently of the first-degree appraisal of its source material in and of itself.
 
 This particularity is usually acknowledged overall when it comes to art, if not always respected. Many abstruse artworks chock-full of heterogeneous symbolism, concepts and contrivances which technically don't make much sense are still lauded. Enthusiasts will spend hours analyzing them and crafting theories regarding how they should be interpreted^[This can apparently be a source of joy and stimulation for some, although I couldn't give you a personal testimony. The only thing they tend to inspire in me ranges from mild annoyance to ardent frustration. I enjoy my disjointed schizoid ramblings like any other, yet I prefer to insulate them within my conceptual intake, and keep focused and cohesive content for my artistic intake. But to each their own.]. This is particularly frequent in the contemporary, experimental and esoteric genres.
@@ -231,3 +235,11 @@ Ultimately, we can't ignore all unscientific^[I'd mostly be using Popper's crite
 Please, Lord, Save Me From Your Followers.
 
 And Please, Science, Exonerate Me From Your Simps.
+
+<details class="changelog">
+  <summary>Changelog</summary>
+
+- **April 26, 2024**: Added the "All models are wrong, some are useful" aphorism at the top.
+
+</details>
+
