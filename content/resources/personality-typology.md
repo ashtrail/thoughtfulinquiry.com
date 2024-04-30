@@ -5,7 +5,7 @@ title: Personality Typology Resources
 
 A concise repository of the best resources I've found regarding the various personality typology systems I enjoy.
 
-This page is a work in progress, I'll add more systems and content with time.
+This page is a work in progress. I'll add more content with time. If you'd like me to add a specific system I've mentioned somewhere in priority [send me an email](/contact). I'm much more likely to invest the time and energy if I know at least one person is interested.
 
 ## MBTI
 
@@ -16,11 +16,13 @@ If you're brand new to the MBTI I'd recommend starting with [Personality Junkie]
 
 It's a good typology blog overall, so don't hesitate to check out more of their content.
 
-You might also be interested in my video on [deducing the cognitive functions from a four letter type and conversely](https://www.youtube.com/watch?v=YDSWY1kr4vU).
+The best website to estimate your type out there is [Michael Caloz's cognitive functions test](https://www.michaelcaloz.com/personality/) in my opinion.
 
 To learn the types, I'd recommend [Michael Pierce's playlist on the topic](https://www.youtube.com/watch?v=zdwGmkc9brI&list=PL6rzdODmcL65kvRx1us3UXkxWclo-LJ_h&pp=iAQB). His YouTube channel is a good place to learn more about the MBTI in general once you've got the basics down.
 
-If you're looking for something a bit more arcane and obscure, I enjoy [Skimmerlit's channel](https://www.youtube.com/watch?v=6-ySrhaOTg0&list=PLapyHb3ibDRXM5PjMODG8oPx58cL9gST-&pp=iAQB) for original insights on the topic.
+You might also be interested in my video on [deducing the cognitive functions from a four letter type and conversely](https://www.youtube.com/watch?v=YDSWY1kr4vU).
+
+If you're looking for something that's a bit more of an acquired taste, I also enjoy [Skimmerlit's channel](https://www.youtube.com/watch?v=6-ySrhaOTg0&list=PLapyHb3ibDRXM5PjMODG8oPx58cL9gST-&pp=iAQB) for original insights on the topic.
 
 
 <br>
