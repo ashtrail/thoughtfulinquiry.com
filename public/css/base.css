@@ -795,7 +795,7 @@ footer {
   color: var(--text-color);
 }
 
-.tag:hover {
+a.tag:hover {
   background: var(--reversed-background-gradient-color);
   color: var(--text-color);
 }

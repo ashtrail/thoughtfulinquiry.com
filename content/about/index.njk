@@ -1,0 +1,41 @@
+---
+layout: page
+title: About
+eleventyNavigation:
+  key: About
+  order: 4
+---
+
+{% from 'card-link.njk' import cardLink %}
+
+{{
+  cardLink(
+    title = 'About the Author',
+    description = 'Learn more about the person behind the (digital) quill.',
+    url = 'author/'
+  )
+}}
+
+{{
+  cardLink(
+    title = 'About the Website',
+    description = 'How and why I built this website the way I did.',
+    url = 'website/'
+  )
+}}
+
+{{
+  cardLink(
+    title = 'Contact information',
+    description = "How to get in touch with me.",
+    url = '/contact/'
+  )
+}}
+
+{{
+  cardLink(
+    title = 'Now page',
+    description = "A monthly log of the latest things I've been up to.",
+    url = '/now/'
+  )
+}}

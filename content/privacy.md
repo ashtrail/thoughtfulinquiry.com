@@ -11,9 +11,9 @@ No identifying / personal data is collected. No information is shared with third
 
 Apart from the analytics, the website does not collect any data. It doesn't use cookies either. The only piece of information stored^[In your browser's localStorage] is your favorite theme (i.e. light or dark) if you change the default manually.
 
-I also link to my newsletter subscription form, which collects your e-mail address if you choose to subscribe. The newsletter emails use UTM tags when linking back to  the blog, which allows me to know whether you came from one of my emails when you visit a page (cf. the Referer section below). No further information is collected for the newsletter.
+I also link to [my newsletter subscription form](/newsletter), which collects your e-mail address if you choose to subscribe. The newsletter emails use UTM tags when linking back to the blog, which allows me to know whether you came from one of my emails when you visit a page (cf. the Referer section below). No further information is collected for the newsletter.
 
-If you have any questions or concerns about this privacy policy, you can [contact me]({{ metadata.author.contact }}).
+If you have any questions or concerns about this privacy policy, you can [contact me](/contact).
 
 I reserve the right to make changes to this policy. Any update will become effective as soon as it's posted on this page.
 
