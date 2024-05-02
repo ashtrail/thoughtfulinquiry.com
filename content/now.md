@@ -18,6 +18,22 @@ For the first half of 2024, I plan to:
 
 ## 2024
 
+### April
+
+April, just like March, was a busy month.
+
+Blog-wise, I kept working on my new page in the background during the first half of the month^[It's a long process, especially since I do it in little chunks to fit my other publications. I'll publish it one day, but it's most likely still a few months away.] and on my new post *Gist triangulation* on the second one. I also did a write-up of my overall [newsletter philosophy](https://www.thoughtfulinquiry.com/newsletter/#my-newsletter-philosophy) under my sign-up page, created a [personality typology resource page](https://www.thoughtfulinquiry.com/resources/personality-typology/) with a first section on the MBTI, and split my previous "about" page into subpages (website, author and contact). I also added more information to my "about the author" section.
+
+Last month, I mentioned I had a project in the pipes, well it's now out. I started a [Thoughtful Inquiry YouTube channel](https://www.youtube.com/channel/UCloXYwiGXy_UBJPd8GfeSXg), and I've already posted my first 5 videos!
+
+My birthday is in April, so I also enjoyed a short vacation with my family, which was nice!
+
+I discovered too many interesting things this month, so it's going to be hard to keep things short, even by only keeping the cream of the crop.
+
+I started playing with [Airtable](https://www.airtable.com/), which is a really nifty software. It's basically a simplified database manager, similar to Notion in this regard but much more powerful, with the possibility to do some math and stats like a spreadsheet. I've started creating a personal content tracker and CRM with it. A bit bummed out that they force you to start with the premium version only to strip it two weeks later and with it some nice QOL feature like the ability to color record, but it's still an excellent free tier, so I can't complain too much, I guess.
+
+In terms of media consumption, I usually read at least a couple of noteworthy articles monthly, but [The LLMentalist Effect: how chat-based Large Language Models replicate the mechanisms of a psychic’s con](https://softwarecrisis.dev/letters/llmentalist/) by Baldur Bjarnason really impressed me with its quality this month^[In the same vein, [AI isn't useless. But is it worth it?](https://www.citationneeded.news/ai-isnt-useless/) by Molly White is another good read.]. I watched *Frieren*, *House of the Dragon*, and *Shogun* which are all excellent shows. Video game-wise, I got to play *Neon White* for the first time and succumbed to the hype around *Balatro*, and they're both top-notch indeed. Finally, the latest albums, *El Magnifico* by Ed Harcourt and *Hyperdrama* by Justice, are straight bangers.
+
 ### March
 
 Seeing as I'm currently unemployed, I had more time than usual to invest in my personal projects and got a decent amount of work done.
