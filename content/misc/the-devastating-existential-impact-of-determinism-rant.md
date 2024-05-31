@@ -3,11 +3,12 @@ layout: page
 title: The devastating existential impact of determinism
 eleventyExcludeFromCollections: true
 excludeFromSitemap: true
+date: 2024-05-31
 ---
 
 <details open="true">
   <summary>
-    Foreword
+    Foreword (May 31, 2024)
   </summary>
 
 This is the second version of a YouTube comment I initially wrote in response to [the following comment thread](https://www.youtube.com/watch?v=u8H4_dz1_jY&lc=Ugwf13K3qoUqfjZc_CJ4AaABAg) on Dr K's video "Why Your Choices Aren't Really Yours."
