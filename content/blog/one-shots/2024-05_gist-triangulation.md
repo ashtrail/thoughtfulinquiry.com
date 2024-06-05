@@ -5,8 +5,8 @@ date: 2024-05-01
 permalink: /blog/gist-triangulation/
 related:
 - 2024-04_ideological-imperialism
+- 2024-06_perks-of-tolerance
 - 2023-07_empathy-bottleneck
-- 2023-10_constructive-empathic-inquiry
 ---
 
 > Listening is the first step in making people feel valued. Mindful listening allows us to do more than take in peoples words; it helps us better understand the how and why of their views.

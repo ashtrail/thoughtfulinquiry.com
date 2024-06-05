@@ -5,6 +5,7 @@ date: 2024-03-01
 lastEdited: 2024-04-26
 permalink: /blog/what-it-can-spark-isnt-always-bound-by-what-it-is/
 related:
+- 2024-06_perks-of-tolerance
 - 2023-12_hindsight-purpose
 ---
 

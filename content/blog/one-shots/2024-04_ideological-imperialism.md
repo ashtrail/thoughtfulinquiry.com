@@ -4,6 +4,7 @@ description: If only people could let go of their devilish urge to evangelize an
 date: 2024-04-02
 permalink: /blog/ideological-imperialism/
 related:
+- 2024-06_perks-of-tolerance
 - 2023-07_empathy-bottleneck
 - 2023-10_constructive-empathic-inquiry
 ---
