@@ -18,6 +18,18 @@ For the first half of 2024, I plan to:
 
 ## 2024
 
+### May
+
+I've been productive this month too, but I'm running a bit late on my usual schedule, so I'll try to keep this update shortish.
+
+After publishing *Gist triangulation*, I got started on my next post. However, what I intended to be a simple subsection grew much longer than expected, and I decided to divide it into its own post: *The unsung perks of diplomatic open-mindedness*. So, the one I was initially planning to publish should be coming in July instead.
+
+I've kept up with my weekly YouTube publication schedule. I published 5 new videos, including a [spontaneous reaction](https://youtu.be/zNDPuB64Ucs) to Dr K's [Why Your Choices Aren't Really Yours](https://www.youtube.com/watch?v=u8H4_dz1_jY) video, which ended up becoming one of my most popular by far despite a pretty long runtime.
+
+I was generously invited by my family to a pretty luxurious SPA Hotel in Germany for a week. It was a nice change of pace and scenery! It also served as a reminder that I need to append some introverted idle buffer time after holidays with plenty of social interaction and travel if I intend to feel rested by the end.
+
+For my random recommendations section, this month I'd like to highlight the latest *Neon Genesis Evangelion* OST x *Tenacious D* mashup in [camhcom's legendary series](https://www.youtube.com/playlist?list=PLz-r6ePUJBv-VM2o3LjBawaDc3ZsuBz50): [I am (not) one of you](https://youtu.be/vnvs3YCI1HE?si=efX7e46VP-QSSYJb). Staying on the topic of high artistic value shitpost, Andre Antunes has also released a banger: ["I'm Not Gay No More, I am Delivert!" goes Metal](https://www.youtube.com/watch?v=MW6JxO46wLY). Lastly, I've finished reading the manga *Ajin* and binged the available *Dungeon Meshi* anime episodes. They're both great!
+
 ### April
 
 April, just like March, was a busy month.
