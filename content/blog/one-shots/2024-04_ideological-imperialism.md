@@ -5,8 +5,8 @@ date: 2024-04-02
 permalink: /blog/ideological-imperialism/
 related:
 - 2024-06_perks-of-tolerance
+- 2024-07_epistemic-barter
 - 2023-07_empathy-bottleneck
-- 2023-10_constructive-empathic-inquiry
 ---
 
 > You and whose army?<br>
@@ -22,7 +22,7 @@ The term imperialism describes a faction's attempts at extending its power and i
 
 Accordingly, there aren't many novel insights to be found in criticizing this political stance and pointing out its many sins. Instead, in this post, I would like to bring attention to the underlying paradigm that fuels it, which still seems to be flying under the radar by and large.
 
-## A definition
+## Definition
 
 Of course, there is usually an ideological component to imperialism that serves as a justification for expansionism and is often part of the cultural package being spread. "Extending the territory of the superior race," "propagating the word of God," "spreading civilization," "disseminating human rights," and so on. However, these specificities are mostly cosmetic changes on top of the same mindset.
 
@@ -48,7 +48,7 @@ Sadly, imperialism isn't dead^[Russia's current invasion of Ukraine, to give onl
 >
 > — Status Quo, "In the Army Now"
 
-Tyrants and aristocracy don't have a monopoly on ideological imperialism. Everybody loves indulging in it, except when they're on the receiving end, of course. Ordinary people have simply less power at their disposal to implement the ineluctable consequences of their idle fantasies. Any form of aggressive proselytism is ideological imperialism.
+Tyrants and aristocrats don't have a monopoly on ideological imperialism. Everybody loves indulging in it, except when they're on the receiving end, of course. Ordinary people have simply less power at their disposal to implement the ineluctable consequences of their idle fantasies. Any form of aggressive proselytism is ideological imperialism.
 
 There are many convenient ways to sweep exploiting scummy tactics under the rug. After all, everything is justified. It's for "the greater good"! When they're the ones doing it? It's vicious. But for us, it's different. We're the "good guys". We're saving the world. And we've definitely identified the true evil scapegoat to right all wrongs this time.
 
@@ -109,7 +109,7 @@ There's no requirement to appreciate everyone else or even enjoy their company. 
 >
 > — Makoto Yukimura, *Vinland Saga Omnibus*, Vol. 1
 
-Try to do your best to come from a place of respect for your interlocutor's individuality. Muster genuine interest in understanding where they're coming from. Extend consideration and listen actively.
+Try to do your best to come from a place of respect for your interlocutor's individuality. Muster genuine interest in understanding where they're coming from. Extend consideration and listen actively. If you'd like to learn more about the best practices to make navigating disagreements enjoyable and constructive you can read my post on [Epistemic barter]({{ collections.posts | getURLByFileSlug('2024-07_epistemic-barter') }}).
 
 There is nothing wrong with trying to persuade other people over to your point of view, especially if you think it would lead to a better world. But when you start getting certain that you know better than any dissenter, to the point you'd be willing to thoroughly and forcefully overwrite their thoughts and beliefs, that's when you're veering off the deep end.
 
@@ -127,5 +127,9 @@ Wisdom and compassion cannot be manufactured artificially. No one can force anot
 
 Enforcing violence in the name of "the good" is the laziest, most complacent, self-righteous shit ever. It is the polar opposite of virtue. Do you want to put money where your mouth is? If you've got the better answers, prove it. Embody them. Walk the walk. Initiate being the bigger person.
 
+<details class="changelog">
+  <summary>Changelog</summary>
 
+- **July 1, 2024**: I added a link to my post on epistemic barter and did a few minor rewordings.
 
+</details>

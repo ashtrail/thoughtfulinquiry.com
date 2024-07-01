@@ -4,8 +4,8 @@ description: Improve your conversations and disagreements with this best practic
 date: 2024-05-01
 permalink: /blog/gist-triangulation/
 related:
-- 2024-04_ideological-imperialism
 - 2024-06_perks-of-tolerance
+- 2024-07_epistemic-barter
 - 2023-07_empathy-bottleneck
 ---
 
@@ -85,5 +85,3 @@ In short, gist triangulation is an accessible approach to conversation that make
 ![Do it!](https://media1.tenor.com/m/LoXuYGcyMxgAAAAC/just-do-it-shia-la-beouf.gif)
 
 </details>
-
-

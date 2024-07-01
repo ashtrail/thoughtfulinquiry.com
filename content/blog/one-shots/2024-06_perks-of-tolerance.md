@@ -4,9 +4,9 @@ description: What you stand to gain from giving differing views a fair shot and 
 date: 2024-06-05
 permalink: /blog/the-unsung-perks-of-diplomatic-open-mindedness/
 related:
+- 2024-07_epistemic-barter
 - 2024-04_ideological-imperialism
 - 2023-07_empathy-bottleneck
-- 2024-03_what-it-can-spark
 ---
 
 About half the posts I've published so far advocate for a more empathetic approach to human interactions. Most of them assume that your goals already align with achieving "productive" conversations, which could broadly be defined as those that don't end up with each party fuming in frustration and vying for mutually assured destruction. Well... and ideally conclude with some form of progress and closure, meaning having the exact same exchange over and over won't be necessary.
@@ -125,7 +125,7 @@ In closing, approaching disagreements with more flexibility allows you to keep r
 
 Well, you're in luck. As previously stated, I've been waxing poetic on the topic for about a year, now. After all, the main message of this blog is that dissent doesn't have to be an obstacle but, instead, can be a pillar of sustainable harmonious coexistence. And it turns out interpersonal interactions make up a pretty substantial slice of the dissent pie^[But not all of it, either. There's also the matter of internal dissent.].
 
-I'm currently writing a post that delves deeper into the best practices to navigate divergences of opinions pleasantly and constructively. It should be done in about a month. I'll add the link here once it's out. In the meantime, you can already check out the one on [Gist triangulation]({{ collections.posts | getURLByFileSlug('2024-05_gist-triangulation') }}). It's a trick that helps reach mutual understanding faster.
+In my post on [Epistemic barter]({{ collections.posts | getURLByFileSlug('2024-07_epistemic-barter') }}), I delve deeper into the best practices to make navigating divergences of opinions enjoyable and constructive. You can also check out the one on [Gist triangulation]({{ collections.posts | getURLByFileSlug('2024-05_gist-triangulation') }}). It's a trick that helps reach mutual understanding faster.
 
 You might be interested in my post on what to consider when evaluating conceptual frameworks: [What it can spark isn't bound by what it is]({{ collections.posts | getURLByFileSlug('2024-03_what-it-can-spark') }}), or perhaps my deeper dive on shunning [Ideological imperialism]({{ collections.posts | getURLByFileSlug('2024-04_ideological-imperialism') }}), the compulsion to convert others forcefully.
 
@@ -133,3 +133,9 @@ I've also published two posts on understanding and dealing with conflict more br
 
 Lastly, to qualify my usual nonviolent stance, the next post on my shortlist will address the limits of pacifism, the paradox of tolerance, and at what point I think force becomes warranted. I'll also add a link to it once it's done.
 
+<details class="changelog">
+  <summary>Changelog</summary>
+
+- **July 1, 2024**: I added a link to my post on epistemic barter.
+
+</details>
