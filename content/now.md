@@ -10,13 +10,21 @@ The now page serves as a monthly log of what I'm up to regarding the blog. It's 
 
 It's a way to share what I'm working on in the background and keep readers posted on what I'm planning in the short term. It's also a way to update the website here and there in between long-winded posts.
 
-## Roadmap
-
-For the first half of 2024, I plan to:
-1. Focus on shorter posts for the time being and increase my publishing frequency (about 1 post a month would be a decent improvement).
-2. Clarify my general philosophy and target audience with improved descriptions and dedicated new pages.
-
 ## 2024
+
+### June
+
+I spent this month writing my post on *Epistemic barter*. I also published four YouTube videos, including the two remaining videos in my philosophical school of thought trilogy: [Perspectivism](https://youtu.be/6zge3KWZf7o) and [Existentialism](https://youtu.be/EmSImiGiwx4).
+
+We're now halfway through 2024, so let's review the objectives I had set for myself in my roadmap for this first semester.
+
+I've held up the rhythm of monthly publication pretty well so far. I'll be skipping next month due to holidays, but I intend to keep up this frequency for the foreseeable future.
+
+On the other hand, my philosophical manifesto pages are still nowhere near ready. I've been doing a substantial amount of work on this endeavor in the background, but the clarification process never seems to end, and it's hard to juggle drafting long pages with the monthly posts. Therefore, I've decided to give up on semi-commitments and deadlines. It will be ready when it is ready, and I won't be giving estimates in the meantime. If you're interested, I went into more detail on this topic in my video [Elusive clarity, perfectionism & the history of my content creation journey](https://youtu.be/60fwpQYj244).
+
+Recommendation-wise, I went to see *Furiosa - A Mad Max Saga* in the movie theater, and it's really great. It shares a lot in common with *Fury Road*. The action is a bit more dispersed throughout the movie, but the characters and narrative are fleshed out better. If you like high-octane action combined with creative, wacky world-building and an endearing villain, you should give it a watch.
+
+I've also been reading a decent amount this month. I finished *Man's Search for Meaning* by Viktor Frankl. I also gobbled *The Evolution of Cooperation* by Robert Axelrod and *Ishmael* by Daniel Quinn. I strongly recommend them all, especially the latter, which is truly amazing!
 
 ### May
 
