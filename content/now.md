@@ -12,6 +12,20 @@ It's a way to share what I'm working on in the background and keep readers poste
 
 ## 2024
 
+### July
+
+As stated in the last update, I spend a good chunk of this month on holiday so I won't be publishing a post at the beginning of August. I've started working on the next one though, and so far I'm feeling pretty inspired.
+
+I also did publish two videos, and [one of them on existential bad faith](https://youtu.be/f9_PUrhHSUo) blew up with more than 1100 views when my current max was around 150.
+
+This month has been pretty reflective and introspective for me. I'm probably going to be making some changes to my current content creation system and approach in the upcoming months. I should still be publishing written and video content regularly but some of the scheduling, format, and platforms will probably change a bit. I still need to experiment and try out a few things before I feel comfortable making up my mind though.
+
+I've also been watching movies — including *Office Space* whose satire of the daily reality of office/software engineering jobs is still hilariously and painfully spot-on nowadays — and reading lots of books.
+
+When I said I liked *Ishmael* last month I meant it. I read the follow-up back to back, namely *The Story of B*, *My Ishmael*, *Providence* and *Beyond Civilization*. I reiterate my glowing recommendation and strongly suggest you give them a read, at the very least the first one.
+
+Daniel Quinn wasn't the only author in my literary monthly diet, however. To stay fairly concise I'll list every book I finished followed by a short assessment: *Free Will* by Same Harris (interesting), *Betty* by Tiffany McDaniel (an unsettling blend of poesy and atrocity), *Put Your Ass Where Your Heart Wants to Be* by Steven Pressfield and *Steal Like an Artist* by Austin Kleon (same verdict for these last two: insightful and inspiring).
+
 ### June
 
 I spent this month writing my post on *Epistemic barter*. I also published four YouTube videos, including the two remaining videos in my philosophical school of thought trilogy: [Perspectivism](https://youtu.be/6zge3KWZf7o) and [Existentialism](https://youtu.be/EmSImiGiwx4).
