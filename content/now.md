@@ -12,6 +12,20 @@ It's a way to share what I'm working on in the background and keep readers poste
 
 ## 2024
 
+### August
+
+This monthly update comes a bit late. I used to write these as a breather between long posts, but seeing as I'm pretty sure barely anyone reads this page, and I'm increasingly shifting to shorter posts, I think I'll start being less diligent with the updates.
+
+I'm currently in the process of reworking my written content creation setup. I'll keep using this blog, but some things will change a bit in terms of topics and frequency. I'll give more details when I'm ready to start the transition in earnest.
+
+On top of these restructurations to my routine, I'm also starting to get more serious with my job search and juggling a cohort course in parallel during the autumn, so my publication frequency is going to be a bit more sporadic for a while. With that said, my YouTube channel publication schedule hasn't been affected so far, though I'll be taking a few sabbatical weeks soon.
+
+Monthly motley recommendations:
+- I've fallen under the spell of the recent [Nimble 5e](https://www.backerkit.com/c/projects/nimble-co/nimble-2-your-best-5e-combat-ever) project crowdfunding. It's a lighter hack of D&D 5e with less cruft and middle-management chores for the GM, and yet, it's actually more tactical. The classes are also really awesome. (Yes, I personally have no passion for pursuing a PhD in hundreds of redundant and long-winded spells and mob stat blocks. What I like about TTRPGs is narrative immersion and epic antics, not simulating the daily activities of an IRS employee.)
+- Steve Pavlina has started a free course on YouTube called "Engage". I particularly enjoyed the second episode: [Stronger Than Fear](https://youtube.com/watch?v=rc3YLJ7nnsA&si=Xmb7HwMGJiERUv9C).
+- I discovered the YouTube Channel [Writing for Screens](https://www.youtube.com/channel/UCE-jmjAfrk-Ls95wGLluPNA) by Glenn Gers which gives really high-quality fiction writing advice.
+- Other random interesting videos: Simon Sinek's [How Great Leaders Inspire Action – Start with Why](https://www.youtube.com/watch?v=qp0HIF3SfI4) TEDx and [Why adult children go no contact, according to science](https://youtube.com/watch?v=SgxW9SfhB5U&si=glON96_rSx6kNGcq) by Psychology with Dr. Ana.
+
 ### July
 
 As stated in the last update, I spend a good chunk of this month on holiday so I won't be publishing a post at the beginning of August. I've started working on the next one though, and so far I'm feeling pretty inspired.
