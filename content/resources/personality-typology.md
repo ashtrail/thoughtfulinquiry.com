@@ -28,7 +28,7 @@ If you're looking for something that's a bit more of an acquired taste, I also e
 <br>
 
 **Bonus tip:** If you're an INTP
-- Buy and read [The INTP](https://personalityjunkie.com/intp-book-personality-careers-relationships-truth-meaning/) + [The INTP Quest](https://personalityjunkie.com/intp-quest-book/) bundle. Especially, if you're still fairly young (late teens / early twenties) and feel somewhat lost. They're two short e-books of concentrated guidance and recommendations from an older version of yourself. Trust me, for 10 dollars, it's one of the best returns on investment you'll ever make. Thank me later.
+- Buy and read [The INTP](https://personalityjunkie.com/intp-book-personality-careers-relationships-truth-meaning/) + [The INTP Quest](https://personalityjunkie.com/intp-quest-book/) e-book bundle by A.J. Drenth (one of the authors of the aforementioned *Personality Junkie* blog). Especially, if you're still fairly young (late teens / early twenties) and feel somewhat lost. They're two short e-books of concentrated guidance and recommendations from an older version of yourself. Trust me, for 10 dollars, it's one of the best returns on investment you'll ever make. Thank me later.
 - Once you've read the basic theory and a couple of INTP profile descriptions, watch these videos:
   - [INTP Relationship Problems 1 -- Definition as Contract (INTP)](https://www.youtube.com/watch?v=dLP5edjS_3I)
   - [INTP Relationship Problems 2 -- Bipolarity (INTP)](https://youtu.be/neoDb6NTDL4)

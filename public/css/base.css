@@ -386,6 +386,15 @@ main ul ul li {
   list-style-type: circle;
 }
 
+.two-col-lists > ul {
+  -moz-column-count: 2;
+  -moz-column-gap: 2em;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 2em;
+  column-count: 2;
+  column-gap: 2em;
+}
+
 main ol {
   list-style-type: decimal;
   padding: 0.5em 0em 0.5em 1em;
@@ -668,6 +677,8 @@ footer {
   padding-top: 1em;
 }
 
+/* TODO: improve the footer layout & responsiveness */
+
 .footer {
   background-color: var(--footer-bg-color);
   padding: 1.5em 0;
@@ -679,6 +690,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   font-size: 0.9em;
+  flex-wrap: wrap;
 }
 
 .footer,
@@ -695,6 +707,7 @@ footer {
   display: flex;
   gap: 1.5em;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .feeds {

@@ -2,6 +2,7 @@
 title: 'Resolving conflict through constructive empathic inquiry'
 description: "Conflict resolution is still an underrated and underdeveloped skill for most. Let's understand why that is and how to fix it with Nonviolent Communication."
 date: 2023-10-28
+lastEdited: 2024-10-08
 seriesName: empathic-inquiry
 permalink: /blog/empathic-inquiry/2/conflict-resolution-for-beginners-with-nonviolent-communication/
 ---
@@ -33,15 +34,15 @@ In the previous post, I claimed that breaking free from our vicious loops of fru
 
 > Whose fault?
 >
-> Let's play the blame game, I love you more  
-> Let's play the blame game for sure  
-> Let's call out names, names, I hate you more  
-> Let's call out names, names, for sure  
+> Let's play the blame game, I love you more<br>
+> Let's play the blame game for sure<br>
+> Let's call out names, names, I hate you more<br>
+> Let's call out names, names, for sure<br>
 >
-> I'll call you bitch for short  
-> As a last resort and my first resort  
-> You call me motherfucker for long  
-> At the end of it, you know we both were wrong  
+> I'll call you bitch for short<br>
+> As a last resort and my first resort<br>
+> You call me motherfucker for long<br>
+> At the end of it, you know we both were wrong<br>
 >
 > — Kanye West, "Blame Game"
 
@@ -107,7 +108,7 @@ The next part is expressing the feelings sparked by what was described in the ob
 
 They should be centered on you, not on your interlocutor's perceived behavior. Refrain from sneaking in some half-judgments in disguise, such as feeling "betrayed", "rejected", "judged" or "insulted".
 
-If you [struggle with identifying and/or expressing your feelings](https://en.wikipedia.org/wiki/Alexithymia), you can find online inventories to help you triangulate what's going on inside. There used to be a set of them directly accessible on the official NVC website, but they've now been transformed [into a PDF](https://www.cnvc.org/store/feelings-and-needs-inventory). You can get it for free, but you need to fill out a form first. Here's also a [good alternative](https://www.courts.ca.gov/partners/documents/2011SRL3gNVC.pdf) with no requirements for access.
+If you [struggle with identifying and/or expressing your feelings](https://en.wikipedia.org/wiki/Alexithymia), you can find online inventories to help you triangulate what's going on inside. There used to be a set of them directly accessible on the official NVC website, but they've now been transformed [into a PDF](https://www.cnvc.org/store/feelings-and-needs-inventory). You can get it for free, but you need to fill out a form first. The inventories are also a [available on this website](/resources/nvc-inventories/) with no requirements for access.
 
 #### Needs
 
@@ -237,3 +238,10 @@ It keeps us divided and confused by concealing our true feelings and needs under
 It's important to remember that disentangling the empathy bottleneck by establishing an empathic connection is a prerequisite for conflict resolution and, more broadly, unobstructed communication. This is why overlooking questionable claims, at least initially, and validating the underlying feelings they are hiding is crucial, whereas getting bogged down on factual legitimacy is largely inefficient, if not outright detrimental.
 
 The best way to help others is to help ourselves first by focusing on healing our own inner wounds, as we'll bring enhanced clarity and equanimity along with our presence and cause less harm in the long run. Inspiring the people around us through our example is the most constructive way to enact sustainable change.
+
+<details class="changelog">
+  <summary>Changelog</summary>
+
+- **October 8, 2024**: Redirected the NVC inventories link to this website's resource page.
+
+</details>
