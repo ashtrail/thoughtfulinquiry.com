@@ -55,12 +55,13 @@ Look up my [contact information](/contact) if you'd like to get in touch.
 ## My Personality Types
 
 - [Big Five](https://en.wikipedia.org/wiki/Big_Five_personality_traits): RLOAI^[[SLOAN notation](https://similarminds.com/sloan.html) for the Big Five: low in extraversion, high in neuroticism, average in conscientiousness, high in agreeableness, high in openness to experience. See the [detailed results](https://bigfive-test.com/result/60f97fb7e186b200092f5306) of this online NEO-PI-R test.]
-- [MBTI](https://personalityjunkie.com/typology-101/): [INTP](https://personalityjunkie.com/intp-page/)
+- [Jungian Typology](https://en.wikipedia.org/wiki/Psychological_Types)
+	- [MBTI](https://personalityjunkie.com/typology-101/): [INTP](https://personalityjunkie.com/intp-page/)
+	- [Socionics](https://www.wikisocion.net/en/index.php?title=Wikisocion_home): [LII](https://www.wikisocion.net/en/index.php/Logical_Intuitive_Introtim)
 - [Enneagram](https://en.wikipedia.org/wiki/Enneagram_of_Personality): 5w4, sp/sx, [549](https://youtu.be/1tPvDzLKPQc)
 - [Attachement Style](https://en.wikipedia.org/wiki/Attachment_in_adults#Styles): Fearful Avoidant
 - [Attitudinal Psyche](https://www.attitudinalpsyche.com/theory/): [LVEF](https://www.attitudinalpsyche.com/personality-profiles/exi/lvef/)
 - Ayurveda: Vata/Pitta
-- [Socionics](https://www.wikisocion.net/en/index.php?title=Wikisocion_home): [LII-Ne subtype](https://www.wikisocion.net/en/index.php/Logical_Intuitive_Introtim)
 
 <small>You might be interested in my [personality typology resources page](/resources/personality-typology).</small>
 
