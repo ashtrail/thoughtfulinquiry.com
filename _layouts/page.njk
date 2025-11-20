@@ -43,9 +43,10 @@ layout: base
 	<div class="post-header">
 		<h1>{{ title }}</h1>
 
+		<p class="post-description">{{ description }}</p>
+
 		<ul class="metadata-line">
 			<li class="metadata-item tooltip">
-				{# TODO: add .5ch between emoji and text #}
 				<span class="metadata-icon">📨</span>
 				<time datetime="{{ page.date | htmlDateString }}">
 					{{ page.date | readableDate }}
