@@ -5,6 +5,7 @@ date: 2023-12-16
 permalink: /blog/everything-serves-a-purpose-in-hindsight/
 related:
 - 2024-03_what-it-can-spark
+- 2025-11_child-vs-adult-mentality
 ---
 
 > Life can only be understood by looking backward; but it must be lived looking forward.
