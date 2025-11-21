@@ -19,7 +19,7 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">=14"
+    "node": ">=18"
   },
   "devDependencies": {
     "@11ty/eleventy": "2.0.1",
