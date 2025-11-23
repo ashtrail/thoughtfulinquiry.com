@@ -3,6 +3,7 @@ title: The crux of graduating from child to adult mentality
 description: On the elusive mental transition between childhood and adulthood, and incidentally, the savages who lay poopy booby traps on front porches.
 date: 2025-11-21
 permalink: /blog/the-crux-of-graduating-from-child-to-adult-mentality/
+substackLink: https://thewishfulskeptic.substack.com/p/the-crux-of-graduating-from-child
 related:
 - 2024-09_apologize-dont-ask-for-forgiveness
 - 2023-12_hindsight-purpose

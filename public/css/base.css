@@ -613,7 +613,8 @@ input[type='submit'].primary-button:hover {
 
 .banner {
   --border-width: 2px;
-  --border: var(--border-width) solid var(--link-color);
+  --border-color: var(--link-color);
+  --border: var(--border-width) solid var(--border-color);
   background: var(--boosted-background-gradient-color);
   border-top: var(--border);
   border-bottom: var(--border);

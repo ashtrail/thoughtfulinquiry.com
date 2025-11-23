@@ -115,6 +115,15 @@ layout: base
 
 	{{ content | safe }}
 
+		{% if substackLink %}
+			<div class="substack-info banner">
+				<svg width="26" height="26">
+					<use xlink:href="#lucide-info"></use>
+				</svg>
+				<p>If you wish you could leave a comment or like the post, you can do so on the Substack version <a href="{{ substackLink }}">available here</a>.</p>
+			</div>
+		{% endif %}
+
 	{% if isPost %}
 		{{ postSeries(previousPost, nextPost, currentSeries, isReversed = true) }}
 	{% endif %}
