@@ -27,6 +27,11 @@
   text-align: center;
   font-size: 0.9em;
   max-width: 38ch;
+  flex-shrink: 3;
+}
+
+.substack-info > svg {
+  flex-shrink: 1;
 }
 
 .related-posts {
