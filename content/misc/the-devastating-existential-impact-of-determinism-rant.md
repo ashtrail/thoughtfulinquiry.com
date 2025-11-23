@@ -4,6 +4,7 @@ title: The devastating existential impact of determinism
 eleventyExcludeFromCollections: true
 excludeFromSitemap: true
 date: 2024-05-31
+isPost: true
 ---
 
 <details open="true">
