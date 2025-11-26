@@ -1,8 +1,10 @@
 ---
-title: 'How to set up a quick, free and easy exercise routine'
-description: 'Getting and staying fit from home as a couch potatoe: no gym, no equipment, no fees, no commuting, and minimal pain & duration.'
+title: 'How to set up a quick, free, and easy exercise routine'
+description: 'Getting and staying fit from home as a couch potato: no gym, no equipment, no fees, no commuting, and minimal pain & duration.'
 date: 2023-07-21
+lastEdited: 2025-11-26
 permalink: /blog/beginner-home-workout-routine-without-equipment/
+substackLink: https://thewishfulskeptic.substack.com/p/quick-free-easy-exercise-routine
 ---
 
 <details open>
@@ -38,7 +40,7 @@ It does seem to me that sometimes this worship of the gym and sacrificing our ti
 
 But are there any viable alternatives? Well, what if I told you it's possible to start exercising right now with no requirements for a specific location or any equipment? More than that, you could do it for free, and to top it off, it wouldn’t even voraciously drain your measly free time.
 
-Because, as a reclusive wimp, that's what I’ve been doing for more than three years and a half. So far it’s been working pretty well for me, and doctors don’t even hate me!
+Because, as a reclusive wimp, that's what I’ve been doing for more than six years. So far it’s been working pretty well for me, and doctors don’t even hate me!
 
 …or at least I hope they don’t.
 
@@ -48,17 +50,17 @@ If you’re reading this post, I’m assuming it’s probably to get the answer 
 
 It's not a particularly controversial take that **regularity beats intensity** when it comes to exercise. I based my strategy on this principle: maximizing frequency to minimize strain and duration. Could I find a short exercise routine that anyone could do quite simply? After some quick investigating online, I settled on the first decent program I found and tried it out the following morning.
 
-The rules were simple: I would do 10 minutes of exercise every single morning^[weekends and holidays included] for three months, after which I would decide whether to keep going on or not based on the results. I started this program on the 1st of October 2019, and not only did I respect my initial engagement, but I’ve been going strong ever since. I've racked up a streak of 1224 days in a row as of writing.
+The rules were simple: I would do 10 minutes of exercise every single morning^[weekends and holidays included] for three months, after which I would decide whether to keep going on or not based on the results. I started this program on the 1st of October 2019, and not only did I respect my initial engagement, but I’ve been going strong ever since. I've racked up an uninterrupted streak of more than 2000 days in a row as of writing.
 
 ### Personal results
 
-I'd like to stipulate that I wasn't a well-in-shape and sporty person before sticking to this routine. No need to be concerned about a potential unfair advantage from the outset on my part. Actually, it was because I had started growing a burgeoning beer belly after one year of slight overindulgence and wanted to see it melt away that I set the whole thing up in the first place. At that point in time, I would need to pause and catch my breath in a wheezing fit after a thirty-second run. 
+I'd like to stipulate that I wasn't a well-in-shape and sporty person before sticking to this routine. No need to be concerned about a potential unfair advantage from the outset on my part. Actually, it was because I had started growing a burgeoning beer belly after one year of slight overindulgence and wanted to see it melt away that I set the whole thing up in the first place. At that point in time, I would need to pause and catch my breath in a wheezing fit after a thirty-second run.
 
 I did fulfill my initial goal within the span of these three months, albeit greatly reducing my beer intake must have helped too. I also gained a moderate amount of muscle in the process. This is what convinced me to keep going. That, and not feeling like I was on the brink of death after dragging the weekly groceries up to the fifth floor. As a bonus, I also got a bit more confident in my body and myself.
 
 As it happens, because I started on the spur of the moment and am also a bit absent-minded, I didn’t weigh myself before and after those three months, nor did I take before and after pictures. I didn’t think I’d be writing a blog post about it a few years later and having some quantitative data sure would be nice. I'm afraid you’ll just have to take my word for it.
 
-Still, to give you a rough idea, I've weighed around 67 kilos on average^[My weight is very volatile. I can easily drop or gain half a kilo in one day, if not more. So I think an average is more informative in this case. I've only started weighting myself regularly since June 2020, and it's fluctuated within the range of 62 to 72 kg up to now.] for the last few years for a height of 1 meter 85. If you’re in a country that still uses barbaric units of measure, that’s about 148 pounds for 6 feet 1. I'm not making any promises about you reaching these numbers, though. Far be it from me to oversell you a miracle cure. Keep in mind that I'm also an ectomorph^[Technical jargon designating the lanky body type.] by default, and fortuitously follow haphazard intermittent fasting through the habit of skipping breakfast.
+Still, to give you a rough idea, I've weighed around 66 kilos on average^[My weight is very volatile. I can easily drop or gain half a kilo in one day, if not more. So I think an average is more informative in this case. I've only started weighting myself regularly since June 2020, and it's fluctuated within the range of 62 to 72 kg up to now.] for the last few years for a height of 1 meter 85. If you’re in a country that still uses barbaric units of measure, that’s about 146 pounds for 6 feet 1. I'm not making any promises about you reaching these numbers, though. Far be it from me to oversell you a miracle cure. Keep in mind that I'm also an ectomorph^[Technical jargon designating the lanky body type.] by default, and fortuitously follow haphazard intermittent fasting through the habit of skipping breakfast.
 
 Anyway, let's cut to the chase and explain how you would go about implementing it for yourself.
 
@@ -146,7 +148,7 @@ Personally, by now I’ve gone down to 10 seconds for my in-between breaks. And 
 
 Depending on your goals, you might also want to add extra stuff. In the beginning, I had a really hard time doing the five push-ups, and I was unsatisfied with that fact. I might be a wimp, but come on... I don’t want my heart to be pounding like a gerbil on crack after five meager push-ups. So I added 20 more in a row after my four rounds. The first few days were pretty rough, but now it takes more than just five to intimidate me.
 
-I also wanted a nominal amount of abs, so I added 30 seconds of [plank](https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F35%2F2020%2F02%2Flow-plank-hold.jpg) after these extra push-ups. Just like for the rounds, I made it progressively harder, up to a max of one minute and a half. Although I have to say that unlike all the other moves so far, you might need some material for that one, such as a flat pillow or a yoga mat. Because, speaking from experience, if you do it on a hard floor, you can hurt your elbows.
+I also wanted a nominal amount of abs, so I added 30 seconds of [plank](https://gymnation.com/blogs/7-benefits-of-plank-exercises/) after these extra push-ups. Just like for the rounds, I made it progressively harder, up to a max of one minute and a half. Although I have to say that unlike all the other moves so far, you might need some material for that one, such as a flat pillow or a yoga mat. Because, speaking from experience, if you do it on a hard floor, you can hurt your elbows.
 
 I did these extra push-up and plank sessions for several months but have stopped since then. With new things popping up in my morning routine, I had less time overall and was hitting diminishing returns regarding my personal goals anyway. More recently, I bumped up the number of push-ups to 10 per round to rekindle a touch of challenge as the routine gets easier with time.
 
@@ -210,6 +212,8 @@ If my solution does the trick for you, that’s great! If not, that's fine too. 
 
 <details class="changelog">
   <summary>Changelog</summary>
+
+- **November 26, 2026**: Linked to the new Substack version of the post, updated a few numbers, and fixed a typo and a broken link.
 
 - **November 10, 2023**: Reworked a couple wordings here and there.
 
