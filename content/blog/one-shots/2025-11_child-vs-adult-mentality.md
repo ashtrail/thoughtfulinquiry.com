@@ -5,6 +5,7 @@ date: 2025-11-21
 permalink: /blog/the-crux-of-graduating-from-child-to-adult-mentality/
 substackLink: https://thewishfulskeptic.substack.com/p/the-crux-of-graduating-from-child
 related:
+- 2025-11_familiarity-breeds-headway
 - 2024-09_apologize-dont-ask-for-forgiveness
 - 2023-12_hindsight-purpose
 ---
