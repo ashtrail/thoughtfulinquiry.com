@@ -6,6 +6,7 @@ permalink: /blog/stop-saying-get-out-of-your-comfort-zone/
 substackLink: https://thewishfulskeptic.substack.com/p/stop-saying-get-out-of-your-comfort
 related:
 - 2025-11_child-vs-adult-mentality
+- 2026-01_befriend-resistance
 - 2024-09_apologize-dont-ask-for-forgiveness
 ---
 

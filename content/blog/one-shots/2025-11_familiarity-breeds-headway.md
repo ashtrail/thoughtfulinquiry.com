@@ -5,9 +5,9 @@ date: 2025-11-28
 permalink: /blog/familiarity-breeds-headway/
 substackLink: https://thewishfulskeptic.substack.com/p/familiarity-breeds-headway
 related:
+- 2026-01_befriend-resistance
 - 2023-07_exercise-routine
 - 2025-11_child-vs-adult-mentality
-- 2024-09_apologize-dont-ask-for-forgiveness
 ---
 
 Making progress on tasks that feel deeply daunting and repellent is arduous. Most attempts prove to be exercises in futility, protracted bouts of unproductive and agonizing procrastination. Occasionally, however, we manage to find a way to push through and get the momentum rolling.
