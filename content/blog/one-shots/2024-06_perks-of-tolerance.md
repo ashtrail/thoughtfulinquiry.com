@@ -6,7 +6,7 @@ permalink: /blog/the-unsung-perks-of-diplomatic-open-mindedness/
 related:
 - 2024-07_epistemic-barter
 - 2024-04_ideological-imperialism
-- 2023-07_empathy-bottleneck
+- 2026-02_petty-wager
 ---
 
 About half the posts I've published so far advocate for a more empathetic approach to human interactions. Most of them assume that your goals already align with achieving "productive" conversations, which could broadly be defined as those that don't end up with each party fuming in frustration and vying for mutually assured destruction. Well... and ideally conclude with some form of progress and closure, meaning having the exact same exchange over and over won't be necessary.
