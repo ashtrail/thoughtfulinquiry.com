@@ -6,8 +6,8 @@ permalink: /blog/stop-saying-get-out-of-your-comfort-zone/
 substackLink: https://thewishfulskeptic.substack.com/p/stop-saying-get-out-of-your-comfort
 related:
 - 2025-11_child-vs-adult-mentality
-- 2026-01_befriend-resistance
 - 2024-09_apologize-dont-ask-for-forgiveness
+- 2026-03_aha-moment
 ---
 
 The expression "get out of your comfort zone" is silly and annoying. It's far from a meaningful act of thoughtful expression tailored to an interlocutor you care for. Instead, it's a platitude disgorged in fits of verbal incontinence, a conditioned reflex like saying "Bless you" when someone sneezes. To be fair, though, at least "Bless you" is kind and polite. "Get out of your comfort zone" is neither.
