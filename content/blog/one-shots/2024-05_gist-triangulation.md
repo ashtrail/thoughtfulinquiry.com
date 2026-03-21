@@ -3,6 +3,7 @@ title: Gist triangulation
 description: Improve your conversations and disagreements with this best practice based on proactive listening and collaborative elaboration.
 date: 2024-05-01
 permalink: /blog/gist-triangulation/
+substackLink: https://thewishfulskeptic.substack.com/p/gist-triangulation
 related:
 - 2024-06_perks-of-tolerance
 - 2024-07_epistemic-barter
