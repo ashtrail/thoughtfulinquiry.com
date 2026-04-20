@@ -5,8 +5,8 @@ date: 2026-02-21
 permalink: /blog/petty-wager/
 substackLink: https://thewishfulskeptic.substack.com/p/petty-wager
 related:
+- 2026-04_great-sieve
 - 2024-07_epistemic-barter
-- 2024-06_perks-of-tolerance
 - 2024-03_what-it-can-spark
 ---
 
