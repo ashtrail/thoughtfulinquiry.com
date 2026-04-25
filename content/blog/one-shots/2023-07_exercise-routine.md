@@ -134,7 +134,9 @@ Rinse and repeat until you reach a total of 10 minutes.
 
 The only thing you need is a patch of uncluttered floor, which I’m assuming shouldn’t be too troublesome to find, and a device to time yourself. If you’re reading this post, then you have access to the internet where you can find online chronometers ([like this one](http://online-stopwatch.chronme.com/)). There’s also a high probability you possess a smartphone, which should have a preinstalled clock application with this feature anyway.
 
-I just want to be sure to mention that although this routine should be fine for the vast majority of people, if you have a special muscular or bone condition, perhaps a wound, or just doubt that this is suited for you, be sure to check with your doctor. I’m definitely not fit to give any medical advice and my goal here is to help you out, not to cause injuries.
+I firmly recommend swapping out the jumping jacks for [no-jump jumping jacks](https://www.youtube.com/watch?v=631KlEZtyEI) to avoid getting embroiled in unnecessary blood feuds with downstairs neighbors if you live in an apartment building or when you stay in hotels and other people's places. I'm speaking from experience here.
+
+Additionally, I want to emphasize that although this routine should be fine for the vast majority of people, if you have a special muscular or bone condition, perhaps a wound, or just doubt that this is suited for you, be sure to check with your doctor. I’m definitely not fit to give any medical advice, and my goal here is to help you out, not to cause injuries.
 
 If some of the moves are unfamiliar to you, you can look them up online^[If you click on the callouts for each step, you can see a short GIF serving as a visual example.] (that’s what I did). There are a lot of video demonstrations out there
 
@@ -212,6 +214,8 @@ If my solution does the trick for you, that’s great! If not, that's fine too. 
 
 <details class="changelog">
   <summary>Changelog</summary>
+
+- **April 25, 2026**: Mention no-jump jumping jacks as an alternative to avoid getting in trouble with neighbors.
 
 - **November 26, 2026**: Linked to the new Substack version of the post, updated a few numbers, and fixed a typo and a broken link.
 
