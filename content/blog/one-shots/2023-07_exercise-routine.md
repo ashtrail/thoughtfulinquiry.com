@@ -2,7 +2,7 @@
 title: 'How to set up a quick, free, and easy exercise routine'
 description: 'Getting and staying fit from home as a couch potato: no gym, no equipment, no fees, no commuting, and minimal pain & duration.'
 date: 2023-07-21
-lastEdited: 2025-11-26
+lastEdited: 2026-04-25
 permalink: /blog/beginner-home-workout-routine-without-equipment/
 substackLink: https://thewishfulskeptic.substack.com/p/quick-free-easy-exercise-routine
 ---
