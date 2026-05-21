@@ -4,9 +4,9 @@ description: If only people could let go of their devilish urge to evangelize an
 date: 2024-04-02
 permalink: /blog/ideological-imperialism/
 related:
-- 2024-06_perks-of-tolerance
 - 2024-07_epistemic-barter
 - 2023-07_empathy-bottleneck
+- 2026-05_values-vs-cliques
 ---
 
 > You and whose army?<br>
