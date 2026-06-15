@@ -4,9 +4,9 @@ description: The focus of authentic communication should be compassionate and ho
 date: 2024-09-17
 permalink: /blog/apologize-but-dont-ask-for-forgiveness/
 related:
+- 2026-06_trustworthiness
+- 2025-11_child-vs-adult-mentality
 - 2023-07_empathy-bottleneck
-- 2023-10_constructive-empathic-inquiry
-- 2024-06_perks-of-tolerance
 ---
 
 Forgiveness is a personal and organic process that varies based on the context and the individual. Although it's often better to eventually let go of old grudges in order to move on, forgiveness is not something that can be demanded from someone.

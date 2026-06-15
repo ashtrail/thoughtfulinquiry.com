@@ -7,7 +7,7 @@ substackLink: https://thewishfulskeptic.substack.com/p/the-crux-of-graduating-fr
 related:
 - 2025-11_familiarity-breeds-headway
 - 2024-09_apologize-dont-ask-for-forgiveness
-- 2023-12_hindsight-purpose
+- 2026-06_trustworthiness
 ---
 
 ## Adulthood, where art thou?
