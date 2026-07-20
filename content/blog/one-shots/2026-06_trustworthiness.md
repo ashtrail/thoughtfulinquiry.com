@@ -7,6 +7,7 @@ substackLink: https://thewishfulskeptic.substack.com/p/trustworthy-people-arent-
 related:
 - 2024-09_apologize-dont-ask-for-forgiveness
 - 2025-11_child-vs-adult-mentality
+- 2026-07_respect-the-darkness
 ---
 
 The best indicator that someone is trustworthy is their willingness to do everything in their power to ensure that relying on your trust in them isn't your unique source of security.

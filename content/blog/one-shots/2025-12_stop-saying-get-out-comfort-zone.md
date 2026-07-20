@@ -5,8 +5,8 @@ date: 2025-12-21
 permalink: /blog/stop-saying-get-out-of-your-comfort-zone/
 substackLink: https://thewishfulskeptic.substack.com/p/stop-saying-get-out-of-your-comfort
 related:
+- 2026-07_respect-the-darkness
 - 2025-11_child-vs-adult-mentality
-- 2024-09_apologize-dont-ask-for-forgiveness
 - 2026-03_aha-moment
 ---
 
