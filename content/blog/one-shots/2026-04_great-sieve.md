@@ -7,7 +7,7 @@ substackLink: https://thewishfulskeptic.substack.com/p/contentions-with-christia
 related:
 - 2023-12_hindsight-purpose
 - 2026-02_petty-wager
-- 2024-02_too-skeptical-to-disbelieve
+- 2026-08_jesus-monomania
 ---
 
 Christianity is the religion I'm best acquainted with, seeing as it's the one I was raised into, albeit a fairly unorthodox and liberal take on it. Since my teenhood, I've felt very conflicted about the whole thing.
