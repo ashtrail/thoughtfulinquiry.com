@@ -6,8 +6,8 @@ permalink: /blog/contentions-with-christianity-jesus-monomania/
 substackLink: https://thewishfulskeptic.substack.com/p/contentions-with-christianity-jesus-monomania
 related:
 - 2026-04_great-sieve
+- 2026-09_religion-is-superfluous
 - 2026-02_petty-wager
-- 2024-02_too-skeptical-to-disbelieve
 ---
 
 Christianity is the religion I'm best acquainted with, seeing as it's the one I was raised into, albeit a fairly unorthodox and liberal take on it. Since my teenhood, I've felt very conflicted about the whole thing.

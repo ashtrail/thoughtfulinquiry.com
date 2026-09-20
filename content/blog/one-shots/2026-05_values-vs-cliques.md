@@ -6,7 +6,7 @@ permalink: /blog/value-vs-clique-allegiance/
 substackLink: https://thewishfulskeptic.substack.com/p/value-vs-clique-allegiance
 related:
 - 2024-04_ideological-imperialism
-- 2023-07_empathy-bottleneck
+- 2026-09_religion-is-superfluous
 - 2024-07_epistemic-barter
 ---
 

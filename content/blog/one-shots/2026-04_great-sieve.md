@@ -5,9 +5,9 @@ date: 2026-04-21
 permalink: /blog/contentions-with-christianity-filtering-souls/
 substackLink: https://thewishfulskeptic.substack.com/p/contentions-with-christianity-filtering-souls
 related:
-- 2023-12_hindsight-purpose
-- 2026-02_petty-wager
 - 2026-08_jesus-monomania
+- 2026-09_religion-is-superfluous
+- 2026-02_petty-wager
 ---
 
 Christianity is the religion I'm best acquainted with, seeing as it's the one I was raised into, albeit a fairly unorthodox and liberal take on it. Since my teenhood, I've felt very conflicted about the whole thing.
