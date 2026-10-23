@@ -124,7 +124,23 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addShortcode('authorAge', getAuthorAge)
 
-  /* --- Passthrough & Watch ----------------------------------------------- */
+  /* --- Staging posts before publication date ------------------------------ */
+
+  const isFuture = data =>
+    data.date && new Date(data.date).getTime() > Date.now()
+
+  // TODO: prevent creating the page with permalink = false too?
+  // eleventyConfig.addGlobalData(
+  //   'eleventyComputed.permalink',
+  //   () => data => (isFuture(data) ? false : data.permalink)
+  // )
+
+  eleventyConfig.addGlobalData(
+    'eleventyComputed.eleventyExcludeFromCollections',
+    () => data => (isFuture(data) ? true : data.eleventyExcludeFromCollections)
+  )
+
+  /* --- Passthrough & Watch ------------------------------------------------ */
 
   // Copy the contents of the `public` folder to the output folder
   // For example, `./public/css/` ends up in `_site/css/`
