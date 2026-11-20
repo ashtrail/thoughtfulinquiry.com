@@ -1,5 +1,5 @@
 ---
-title: 'Contentions with Christianity: Religion is superfluous (at best)'
+title: 'Contentions with Christianity: Religion is superfluous'
 description: Questioning whether religion is necessary to undergird spirituality and regulate our individual lives and politics.
 date: 2026-09-21
 permalink: /blog/contentions-with-christianity-religion-is-superfluous/
