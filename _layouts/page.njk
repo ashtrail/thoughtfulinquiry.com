@@ -137,7 +137,10 @@ layout: base
 
 		<p>If you liked this post, you might also enjoy:</p>
 		{% for slug in related %}
-			{{ postLink(collections.posts | getByFileSlug(slug), isSmall = true) }}
+			{% set relatedPost = collections.posts | getByFileSlug(slug) %}
+			{% if relatedPost %}
+				{{ postLink(relatedPost, isSmall = true) }}
+			{% endif %}
 		{% endfor %}
 	{% endif %}
 
