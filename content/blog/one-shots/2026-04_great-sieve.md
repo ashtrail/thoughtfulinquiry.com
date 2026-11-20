@@ -6,7 +6,7 @@ permalink: /blog/contentions-with-christianity-filtering-souls/
 substackLink: https://thewishfulskeptic.substack.com/p/contentions-with-christianity-filtering-souls
 related:
 - 2026-08_jesus-monomania
-- 2026-09_religion-is-superfluous
+- 2026-11_punitive-justice
 - 2026-02_petty-wager
 ---
 

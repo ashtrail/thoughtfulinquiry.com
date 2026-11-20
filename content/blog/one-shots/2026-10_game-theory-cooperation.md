@@ -6,8 +6,8 @@ permalink: /blog/game-theory-of-cooperation-101/
 substackLink: https://thewishfulskeptic.substack.com/p/game-theory-of-cooperation-101
 related:
 - 2024-06_perks-of-tolerance
+- 2026-11_punitive-justice
 - 2023-07_empathy-bottleneck
-- 2024-07_epistemic-barter
 ---
 
 I would like to see a world where humans coexist harmoniously with one another regardless of their differences. As such, I have promoted an optimistic and lenient approach to social interactions in several of my posts. That being said, I also value lucidity; self-delusion isn't an effective means to achieve goals. And as it turns out, harmonious coexistence can be pretty tricky to navigate in practice.
